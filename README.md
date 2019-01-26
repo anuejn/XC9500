@@ -12,7 +12,7 @@ To get started the following documents are a good intro into the architecture:
 
 ## Bitstream Documentation
 
-Nothing is done on this front yet.
+Some initial thoughts have been made on which bits / fuses exist, but they still have to be located in the bitstream.
 
 For example bitstreams, see the `misc/bitstreams/` folder.
 

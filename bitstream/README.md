@@ -45,6 +45,6 @@ For the `XC9572XL-TQ100` this equals to `72 * 8` = 576 of 46656 and thus 1.2% of
 
 # Conclusion / Progress
 
-The above fuse definitions leave 72 of the 46656 Fuses of a `XC9572XL-TQ100` unexplained. Probably one bit in the macrocells is missing.
+The above fuse definitions leave 72 of the 46656 Fuses of a `XC9572XL-TQ100` unexplained. Probably one bit in the macrocells or IO blocks is missing.
 
 Moreover, using two bits for a two input mux seems to be a doubious but since the numbers lign up quite well, we are probably having the fuses in the right blocks.
