@@ -1,0 +1,3 @@
+[submodule "bitstream/xc3sprog"]
+	path = bitstream/xc3sprog
+	url = https://github.com/matrix-io/xc3sprog
