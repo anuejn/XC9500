@@ -1,7 +1,7 @@
 # XC9500 Reverse Engineering
 
 WIP open source tooling for the XC9500 / XC9500XL series of CPLDs from Xilinx.  
-Primary focus of efford is on the XC95144XL for now.
+Primary focus of efford is on the XC9572XL for now.
 
 ## Useful documentation
 
