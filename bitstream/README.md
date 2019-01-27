@@ -23,7 +23,7 @@ This leads to 108 * 54 = 9720 fuses.
 
 ### Product term allocators
 
-The Product term allocator can route each of its 7 inputs either to set, ff in, reset, clock, clock enable, left, right. This leads to 7 * 8 = 65 Fuses (1008/1006 per FB).
+The Product term allocator can route each of its 7 inputs (5 + before and after) either to set, ff in, reset, clock, clock enable, before, after. This leads to 7 * 8 = 65 Fuses (1008/1006 per FB).
 
 ### Macro cells
 
@@ -36,15 +36,15 @@ Probably one bit is to be discovered here.
 
 ## IO Blocks
 
-The OE muxes (including the invert select mux) requires 8 fuses for the `XC95144XL` and the `XC95288XL` (they feature 4 global OE signals) and 6 fuses for the smaller devices.
+The OE muxes (including the invert select mux) requires 9 fuses for the `XC95144XL` and the `XC95288XL` (they feature 4 global OE signals) and 7 fuses for the smaller devices.
 
-The slew rate select and the user pogrammable ground feature are presumably using 1 Fuse each.
+The slew rate select, the user pogrammable ground feature are presumably using 1 fuse each.
 
-The total amount of fuses for one IOB is 8-10.  
-For the `XC9572XL-TQ100` this equals to `72 * 8` = 576 of 46656 and thus 1.2% of the total amount of fuses.
+The total amount of fuses for one IOB is 9-11.  
+For the `XC9572XL-TQ100` this equals to `72 * 9` = 648 of 46656 and thus 1% of the total amount of fuses.
 
 # Conclusion / Progress
 
-The above fuse definitions leave 72 of the 46656 Fuses of a `XC9572XL-TQ100` unexplained. Probably one bit in the macrocells or IO blocks is missing.
+The above fuse definitions leave 0 of the 46656 Fuses of a `XC9572XL-TQ100` unexplained.
 
-Moreover, using two bits for a two input mux seems to be a doubious but since the numbers lign up quite well, we are probably having the fuses in the right blocks.
+However, using two bits for a two input mux seems to be a doubious but since the numbers lign up quite well, we are probably having the fuses in the right blocks.
