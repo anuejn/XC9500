@@ -13,26 +13,24 @@ For the `XC9572XL-TQ100` this equals to `8 * (4 * 54)` = 1728 of 46656 and thus 
 ## Function Blocks
 
 A FB consists of a programmable and array, a product term allocator and 18 Macrocells.  
-In the `XC9572XL-TQ100` each FB has (9720 + 1008 + 342) = 11070 Fuses.  
-This results in a total of 44280 Fuses (94.9%) for the `XC9572XL-TQ100`.
+In the `XC9572XL-TQ100` each FB has (9720 + 504 + 306) = 10530 Fuses.  
+This results in a total of 42120 Fuses (90.28%) for the `XC9572XL-TQ100`.
 
 ### Programmable And Array
 
-108 signals (54 + 54 inverted) can form 90 product terms.  
-This leads to 108 * 54 = 9720 fuses.
+108 signals (54 + 54 inverted) can form 90 (5 per macrocell) product terms.  
+This leads to `108 * 90 = 9720` fuses.
 
 ### Product term allocators
 
-The Product term allocator can route each of its 7 inputs (5 + before and after) either to set, ff in, reset, clock, clock enable, before, after. This leads to 7 * 8 = 65 Fuses (1008/1006 per FB).
+The Product term allocator can assign its 7 inputs (5 + before and after) inputs to different purposes, in total we estimate 28 fuses per PTA. (TODO: explain this in more detail). This leads to `28 * 18 = 504` bits per function block.
 
 ### Macro cells
 
-The Macrocell uses 6 fuses for set / reset, and 6 fuses for clock.
+The Macrocell useys 4 fuses for set / reset, and 4 fuses for clock + 2 for clock invert.
 2 fuses are used to bypass the ff, 3 fuses determine the second input of the xor on the ff (1 / 0 / IN).  
 1 Fuse determines the type of the ff (D/T) and one the reset value.
-This gives us 19 Fuses per Macro cell / 342 per FB
-
-Probably one bit is to be discovered here.
+This gives us 17 Fuses per Macro cell / 306 per FB.
 
 ## IO Blocks
 
