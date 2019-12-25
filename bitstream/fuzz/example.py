@@ -1,5 +1,4 @@
-from bitstream.fuzz.ise import xst, ngdbuild, cpldfit, hprep6
-from bitstream.fuzz.util import tmpfile, cat
+import ise
 
 if __name__ == "__main__":
     DEVICE="xc9536xl-5-VQ64"
@@ -22,10 +21,5 @@ if __name__ == "__main__":
         NET "input"  LOC = "FB1_08"; NET "output"  LOC = "FB2_10";
     """
 
-    synth_result = xst(tmpfile(VHDL, suffix=".vhd"), "passthrough")
-    ndg_file = ngdbuild(ngc_file=synth_result, device=DEVICE, ucf_file=tmpfile(UCF, suffix=".ucf"))
-    fit_result = cpldfit(ndg_file=ndg_file, device=DEVICE)
-    jedec = hprep6(vm6_file=fit_result, label="test")
-    jedec_content = cat(jedec).decode("utf-8")
-
-    print(jedec_content)
+    jedec = ise.synth(DEVICE, VHDL, UCF)
+    print(jedec)

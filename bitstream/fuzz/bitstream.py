@@ -1,6 +1,7 @@
 from jed import parse as parse_jed
 import numpy as np
 
+
 def parse_devicename(name):
     data = {}
 
@@ -25,6 +26,7 @@ def devicename_from_notes(notes):
     for note in notes:
         if note.startswith("DEVICE"):
             return note[7:]
+
 
 # we currently assume that the bits are organized in columns with one column per function block
 # the columns have a repeating pattern of 9 times 8 bits and then 6 times 6 bits
@@ -81,13 +83,15 @@ def flat_bit_data(jed_file, fb=0):
 
     return bit_data
 
+
 def diff(a, b, fb=0):
-    a_data = flat_bit_data(a, fb = fb)
-    b_data = flat_bit_data(b, fb = fb)
+    a_data = flat_bit_data(a, fb=fb)
+    b_data = flat_bit_data(b, fb=fb)
 
     where = np.where(a_data != b_data)
 
     return (where[0], a_data[where], b_data[where])
+
 
 def fuzz_and_array(base):
     for mc in range(18):
@@ -99,8 +103,9 @@ def fuzz_and_array(base):
 
             m, n = diff_position
 
-            print("mc {: 3} base vs inv {: 3} differ at".format(mc, i), "[{: 4} * 108 + {: 3}, {: 4} * 108 + {: 3}]".format(m // 108, m % 108, n // 108, n % 108), "values changed from", a, "->", b)
-
+            print("mc {: 3} base vs inv {: 3} differ at".format(mc, i),
+                  "[{: 4} * 108 + {: 3}, {: 4} * 108 + {: 3}]".format(m // 108, m % 108, n // 108, n % 108),
+                  "values changed from", a, "->", b)
 
 
 if __name__ == "__main__":

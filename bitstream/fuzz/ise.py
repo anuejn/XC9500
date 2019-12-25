@@ -1,6 +1,5 @@
-from bitstream.fuzz.util import tmpfile, exec, args
+from util import tmpfile, exec, args, cat
 import tempfile
-from textwrap import dedent
 
 
 def prj_file(vhdl_file):
@@ -43,7 +42,7 @@ def xst_file(prj_file, top, output):
 
 def xst(vhdl_file, top):
     # xst -intstyle ise -ifn /root/ise_test/test/fadd.xst -ofn /root/ise_test/test/fadd.syr
-    synth_result = tmpfile(suffix=".ngc")
+    synth_result = vhdl_file.replace(".vhd", ".ngc")
     exec(
         "xst", args(
         intstyle="ise",
@@ -54,26 +53,26 @@ def xst(vhdl_file, top):
 
 def ngdbuild(device, ngc_file, ucf_file):
     # example: ngdbuild -intstyle ise -dd _ngo -uc fadd.ucf -p $DEVICE fadd.ngc fadd.ngd
-    ndg_file = tmpfile(suffix=".ngd")
+    ngd_file = ngc_file.replace(".ngc", ".ngd")
     exec(
         "ngdbuild", args(
         ngc_file,
-        ndg_file,
+        ngd_file,
         intstyle="ise",
         dd="_ngo",
         uc=ucf_file,
         p=device,)
     )
-    return ndg_file
+    return ngd_file
 
 
-def cpldfit(device, ndg_file):
+def cpldfit(device, ngd_file):
     # cpldfit -intstyle ise -p $DEVICE -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 50 -unused float -power std -terminate keeper fadd.ngd -wysiwyg
 
     exec("cpldfit", working_dir=tempfile.gettempdir(), args=args(
          "-wysiwyg",
          "-htmlrpt",
-         ndg_file,
+         ngd_file,
          intstyle="ise",
          p=device,
          ofmt="vhdl",
@@ -87,7 +86,7 @@ def cpldfit(device, ndg_file):
          terminate="keeper",)
          )
 
-    return ndg_file.replace(".ngd", ".vm6")
+    return ngd_file.replace(".ngd", ".vm6")
 
 
 def hprep6(label, vm6_file):
@@ -100,3 +99,11 @@ def hprep6(label, vm6_file):
     ))
 
     return vm6_file.replace(".vm6", ".jed")
+
+
+def synth(device, vhdl, ucf, label="test"):
+    synth_result = xst(tmpfile(vhdl, suffix=".vhd"), "passthrough")
+    ndg_file = ngdbuild(ngc_file=synth_result, device=device, ucf_file=tmpfile(ucf, suffix=".ucf"))
+    fit_result = cpldfit(ngd_file=ndg_file, device=device)
+    jedec = hprep6(vm6_file=fit_result, label=label)
+    return cat(jedec)

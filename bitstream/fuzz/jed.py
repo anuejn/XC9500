@@ -1,14 +1,15 @@
 import numpy as np
 
 # start of text
+from util import cat
+
 STX = chr(0x2)
 # end of text
 ETX = chr(0x3)
 
-def parse(filename):
+
+def parse(contents):
     config = {}
-    with open(filename) as f:
-        contents = f.read()
 
     comment, commands = contents.split(STX, 1)
     commands, checksum = commands.split(ETX, 1)
@@ -53,10 +54,8 @@ def parse(filename):
             arch_code, pinout_code = command[1:].split(" ")
             config["architecture_code"] = int(arch_code, 10)
             config["pinout_code"] = int(pinout_code, 10)
-        else: # unknown
+        else:  # unknown
             print("unknown jedec command:", command)
-
 
     return config, data
 
-# parse("out/1_01_to_1_02.jed")
