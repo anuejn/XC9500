@@ -1,5 +1,6 @@
 from bitstream.fuzz.util import tmpfile, exec, args
 import tempfile
+from textwrap import dedent
 
 
 def prj_file(vhdl_file):
@@ -7,35 +8,36 @@ def prj_file(vhdl_file):
 
 
 def xst_file(prj_file, top, output):
-    return tmpfile("""set -tmpdir "{tmpdir}"
-set -xsthdpdir "xst"
-run
--ifn {prj_file}
--ofn {output}
--ifmt mixed
--ofmt NGC
--p xc9500xl
--top {top}
--opt_mode Speed
--opt_level 1
--iuc NO
--keep_hierarchy Yes
--netlist_hierarchy As_Optimized
--rtlview Yes
--hierarchy_separator /
--bus_delimiter <>
--case Maintain
--verilog2001 YES
--fsm_extract YES -fsm_encoding Auto
--safe_implementation No
--mux_extract Yes
--resource_sharing YES
--iobuf YES
--pld_mp YES
--pld_xp YES
--pld_ce YES
--wysiwyg YES
--equivalent_register_removal YES
+    return tmpfile("""
+        set -tmpdir "{tmpdir}"
+        set -xsthdpdir "xst"
+        run
+        -ifn {prj_file}
+        -ofn {output}
+        -ifmt mixed
+        -ofmt NGC
+        -p xc9500xl
+        -top {top}
+        -opt_mode Speed
+        -opt_level 1
+        -iuc NO
+        -keep_hierarchy Yes
+        -netlist_hierarchy As_Optimized
+        -rtlview Yes
+        -hierarchy_separator /
+        -bus_delimiter <>
+        -case Maintain
+        -verilog2001 YES
+        -fsm_extract YES -fsm_encoding Auto
+        -safe_implementation No
+        -mux_extract Yes
+        -resource_sharing YES
+        -iobuf YES
+        -pld_mp YES
+        -pld_xp YES
+        -pld_ce YES
+        -wysiwyg YES
+        -equivalent_register_removal YES
     """.format(tmpdir=tempfile.gettempdir(), prj_file=prj_file, top=top, output=output), suffix=".xst")
 
 
