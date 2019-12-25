@@ -51,8 +51,11 @@ def gen_html_view(filename, data, highlight):
         f.write("</head>")
         f.write("<body>")
 
-        for fb in data:
+        for i, fb in enumerate(data):
+            f.write("FB {}".format(i))
             f.write(gen_fb(fb))
+            f.write("<h3>")
+            f.write("</h3>")
             f.write("<br /><br /><br />")
 
         f.write("</body>")
