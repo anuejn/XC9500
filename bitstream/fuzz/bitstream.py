@@ -71,7 +71,13 @@ def flat_bit_data(jed_file, fb=0):
 
     device = parse_devicename(devicename_from_notes(config["notes"]))
     fb_data = split_into_functionblocks(data, device["function_blocks"], flat=True)
-    bit_data = np.concatenate(fb_data[fb])
+
+    if fb is not None:
+        bit_data = np.concatenate(fb_data[fb])
+    else:
+        bit_data = []
+        for fb in range(device["function_blocks"]):
+            bit_data.append(np.concatenate(fb_data[fb]))
 
     return bit_data
 
@@ -84,13 +90,29 @@ def diff(a, b, fb=0):
     return (where[0], a_data[where], b_data[where])
 
 def fuzz_and_array(base):
-    for fb in range(1):
-        fb = fb + 1
-        for mc in range(1, 18):
-            mc = mc + 1
+    for mc in range(18):
+        mc = mc + 1
+        for i in range(54):
+            i = i + 1
 
-            diff_position, a, b = diff(base + "1_01_to_{}_{:02}.jed".format(fb, mc), base + "1_01_to_{}_{:02}_inv.jed".format(fb, mc))
-            print("1_01 to {}_{:02} differ at".format(fb, mc), diff_position, "values changed from", a, "->", b)
+            diff_position, a, b = diff(base + str(mc) + "_0.jed", base + str(mc) + "_{}.jed".format(i))
+
+            m, n = diff_position
+
+            print("mc {: 3} base vs inv {: 3} differ at".format(mc, i), "[{: 4} * 108 + {: 3}, {: 4} * 108 + {: 3}]".format(m // 108, m % 108, n // 108, n % 108), "values changed from", a, "->", b)
 
 
-fuzz_and_array("out/")
+
+if __name__ == "__main__":
+    fuzz_and_array("out/")
+
+#    base = "out/"
+#    for mc in range(18):
+#        mc += 1
+#        for i in range(0,54):
+#            i += 1
+#
+#            diff_position, a, b = diff(base + str(mc) + "_0_xor.jed", base + str(mc) + "_{}_xor.jed".format(i))
+#            m, n = diff_position
+#
+#            print("xor mc {: 3} base vs inv {: 3} differ at".format(mc, i), "[{: 4} * 108 + {: 3}, {: 4} * 108 + {: 3}]".format(m // 108, m % 108, n // 108, n % 108), "values changed from", a, "->", b)
