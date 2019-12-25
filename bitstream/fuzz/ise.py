@@ -53,7 +53,7 @@ def xst(vhdl_file, top):
 
 def ngdbuild(device, ngc_file, ucf_file):
     # example: ngdbuild -intstyle ise -dd _ngo -uc fadd.ucf -p $DEVICE fadd.ngc fadd.ngd
-    ngd_file = ngc_file.replace(".ngc", ".ngd")
+    ngd_file = tmpfile(hash_seed=ngc_file+ucf_file+device, suffix=".ngd")
     exec(
         "ngdbuild", args(
         ngc_file,

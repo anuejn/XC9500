@@ -1,4 +1,10 @@
+from multiprocessing import Pool
 import ise
+
+
+def mapper(n):
+    return ise.synth(DEVICE, VHDL, UCF.format(n))
+
 
 if __name__ == "__main__":
     DEVICE="xc9536xl-5-VQ64"
@@ -18,8 +24,10 @@ if __name__ == "__main__":
         end Behavioral;
     """
     UCF="""
-        NET "input"  LOC = "FB1_08"; NET "output"  LOC = "FB2_10";
+        NET "input"  LOC = "FB1_08"; NET "output"  LOC = "FB2_{}";
     """
 
-    jedec = ise.synth(DEVICE, VHDL, UCF)
-    print(jedec)
+    with Pool(18) as p:
+        jedecs = p.map(mapper, range(1, 19))
+
+    print(jedecs)

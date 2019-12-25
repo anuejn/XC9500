@@ -42,7 +42,7 @@ def exec(executable, args=None, working_dir=None, should_cache=True):
 
 
     if should_cache:
-        return cache(command_string, lambda: check_output(command_string, shell=True))
+        return cache(command_string, lambda: check_output(command_string, shell=True, stderr=stderr))
     else:
         print("[no cache]" + command_string, file=stderr)
         return check_output(command_string, shell=True)
