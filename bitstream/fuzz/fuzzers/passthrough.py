@@ -1,5 +1,5 @@
 def not_inverted(device):
-    for n in range(18):
+    for n in range(1, 19):
         VHDL = """
             library IEEE;
             use IEEE.STD_LOGIC_1164.ALL;
@@ -25,7 +25,7 @@ def not_inverted(device):
 
 
 def inverted(device):
-    for n in range(18):
+    for n in range(1, 19):
         VHDL = """
             library IEEE;
             use IEEE.STD_LOGIC_1164.ALL;

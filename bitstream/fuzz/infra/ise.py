@@ -1,3 +1,6 @@
+from subprocess import CalledProcessError
+from textwrap import dedent, indent
+
 from infra.util import tmpfile, exec, args, cat
 import tempfile
 
@@ -102,8 +105,16 @@ def hprep6(label, vm6_file):
 
 
 def synth(device, vhdl, ucf, label="test"):
-    synth_result = xst(tmpfile(vhdl, suffix=".vhd"), "passthrough")
-    ndg_file = ngdbuild(ngc_file=synth_result, device=device, ucf_file=tmpfile(ucf, suffix=".ucf"))
-    fit_result = cpldfit(ngd_file=ndg_file, device=device)
-    jedec = hprep6(vm6_file=fit_result, label=label)
-    return cat(jedec)
+    try:
+        synth_result = xst(tmpfile(vhdl, suffix=".vhd"), "passthrough")
+        ndg_file = ngdbuild(ngc_file=synth_result, device=device, ucf_file=tmpfile(ucf, suffix=".ucf"))
+        fit_result = cpldfit(ngd_file=ndg_file, device=device)
+        jedec = hprep6(vm6_file=fit_result, label=label)
+        jedec_content = cat(jedec)
+    except CalledProcessError as err:
+        raise Exception("SYNTH OF DESIGN FAILED!\nvhdl:{vhdl}\nvhdl:{ucf}\nerror:\n{error}\n".format(
+            vhdl=indent(dedent(vhdl), "  "),
+            ucf=indent(dedent(ucf), "  "),
+            error=indent(str(err), "  "))
+        )
+    return jedec_content

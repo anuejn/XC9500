@@ -1,10 +1,12 @@
 import threading
+from os.path import dirname, exists
 from subprocess import check_output, CalledProcessError, Popen, PIPE
-from os import environ
+from os import environ, makedirs
+from sys import stderr
 from textwrap import dedent
 from hashlib import md5 as hash
-import json
-from os import path, makedirs
+import pickle
+import atexit
 
 
 def tmpfile(content=None, hash_seed=None, suffix=None):
@@ -62,31 +64,25 @@ def cat(filename, binary=False):
     return content
 
 
-def cache(key, value_lambda, cache_path='./__pycache__/exec_cache.json', cachefile_lock=threading.Lock()):
+def cache(key, value_lambda, cache_path='./.cache/exec_cache.pickle', cache_map={}):
     key_hash = hash(key.encode("utf-8")).hexdigest()
 
-    def write(data):
-        cachefile_lock.acquire()
-        with open(cache_path, 'w') as f:
-            json.dump(data, f)
-        cachefile_lock.release()
+    def save():
+        if not exists(dirname(cache_path)):
+            makedirs(dirname(cache_path))
+        with open(cache_path, 'wb') as f:
+            pickle.dump(cache_map, f, protocol=pickle.HIGHEST_PROTOCOL)
 
-    def read():
-        cachefile_lock.acquire()
-        with open(cache_path, 'r') as f:
-            content = json.load(f)
-        cachefile_lock.release()
+    def load():
+        with open(cache_path, 'rb') as f:
+            content = pickle.load(f)
         return content
 
-    if not path.exists(cache_path):
-        makedirs(path.dirname(cache_path))
-        write(dict())
+    if len(cache_map.items()) == 0:
+        if exists(cache_path):
+            cache_map.update(load())
+    atexit.register(save)
 
-    cache = read()
-    if key_hash not in cache:
-        cache[key_hash] = value_lambda()
-        write(cache)
-    else:
-        # print("[cache hit ] " + key, file=stderr)
-        pass
-    return cache[key_hash]
+    if key_hash not in cache_map:
+        cache_map[key_hash] = value_lambda()
+    return cache_map[key_hash]
