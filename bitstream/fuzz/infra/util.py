@@ -1,9 +1,9 @@
-from subprocess import check_output
+import threading
+from subprocess import check_output, CalledProcessError, Popen, PIPE
 from os import environ
-from sys import stderr
 from textwrap import dedent
 from hashlib import md5 as hash
-import pickle
+import json
 from os import path, makedirs
 
 
@@ -40,39 +40,53 @@ def exec(executable, args=None, working_dir=None, should_cache=True):
     if environ.get("EXEC_TEMPLATE"):
         command_string = environ["EXEC_TEMPLATE"].format(command_string)
 
+    def real_exec():
+        pipes = Popen(command_string, shell=True, stdout=PIPE, stderr=PIPE)
+        std_out, std_err = pipes.communicate()
+        if pipes.returncode == 0:
+            return std_out.decode("utf-8")
+        else:
+            raise CalledProcessError(pipes.returncode, command_string, std_err)
 
     if should_cache:
-        return cache(command_string, lambda: check_output(command_string, shell=True, stderr=stderr))
+        return cache(command_string, real_exec)
     else:
-        print("[no cache]" + command_string, file=stderr)
-        return check_output(command_string, shell=True)
+        # print("[no cache]" + command_string, file=stderr)
+        return real_exec()
 
 
 def cat(filename, binary=False):
     content = exec("cat", args(filename))
     if not binary:
-        content = content.decode("utf-8")
+        content = content
     return content
 
 
-def cache(key, value_lambda, cache_path='./__pycache__/exec_cache.pickle'):
+def cache(key, value_lambda, cache_path='./__pycache__/exec_cache.json', cachefile_lock=threading.Lock()):
+    key_hash = hash(key.encode("utf-8")).hexdigest()
+
     def write(data):
-        with open(cache_path, 'wb') as f:
-            pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+        cachefile_lock.acquire()
+        with open(cache_path, 'w') as f:
+            json.dump(data, f)
+        cachefile_lock.release()
 
     def read():
-        with open(cache_path, 'rb') as f:
-            return pickle.load(f)
+        cachefile_lock.acquire()
+        with open(cache_path, 'r') as f:
+            content = json.load(f)
+        cachefile_lock.release()
+        return content
 
     if not path.exists(cache_path):
         makedirs(path.dirname(cache_path))
         write(dict())
 
     cache = read()
-    if key not in cache:
-        print("[cache miss] " + key, file=stderr)
-        cache[key] = value_lambda()
+    if key_hash not in cache:
+        cache[key_hash] = value_lambda()
         write(cache)
     else:
-        print("[cache hit]  " + key, file=stderr)
-    return cache[key]
+        # print("[cache hit ] " + key, file=stderr)
+        pass
+    return cache[key_hash]

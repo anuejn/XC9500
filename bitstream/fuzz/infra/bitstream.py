@@ -1,4 +1,4 @@
-from jed import parse as parse_jed
+from infra.jed import parse as parse_jed
 import numpy as np
 
 
@@ -68,8 +68,8 @@ def split_into_functionblocks(data, function_blocks, flat=False):
     return fb_data
 
 
-def flat_bit_data(jed_file, fb=0):
-    config, data = parse_jed(jed_file)
+def flat_bit_data(jed, fb=0):
+    config, data = parse_jed(jed)
 
     device = parse_devicename(devicename_from_notes(config["notes"]))
     fb_data = split_into_functionblocks(data, device["function_blocks"], flat=True)

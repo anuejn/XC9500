@@ -1,7 +1,6 @@
 import numpy as np
 
 # start of text
-from util import cat
 
 STX = chr(0x2)
 # end of text
