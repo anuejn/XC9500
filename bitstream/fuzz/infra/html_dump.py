@@ -1,4 +1,4 @@
-from bitstream import flat_bit_data, diff as diff_bitstream, decode_usercode
+from infra.bitstream import flat_bit_data, diff as diff_bitstream, decode_usercode
 from colorhash import ColorHash
 
 def gen_fb(fb_data, highlight, known):
