@@ -5,21 +5,30 @@ from os import environ, makedirs
 from sys import stderr
 from textwrap import dedent
 from hashlib import md5 as hash
+from base64 import b64encode
 import pickle
 import atexit
 
+def cpu_count():
+    return int(exec("sh", args(c="\\\"python3 -c 'import os; print(os.cpu_count())'\\\"")))
 
 def tmpfile(content=None, hash_seed=None, suffix=None):
-    if content:
+    if content is not None:
         hash_seed = content
     assert hash_seed is not None, "when no content is provided, a hash seed is mandatory!"
+
     filename = "/tmp/{}".format(hash(hash_seed.encode("utf-8")).hexdigest(), suffix)
     if suffix:
         filename += suffix
+
     if content is not None:
-        exec("sh", args(c="cat << EOF > {filename}\n{content}\nEOF".format(content=clean(content), filename=filename)))
+        content = clean(content)
+        content = b64encode(content.encode("utf-8")).decode("utf-8")
+
+        exec("sh", args(c="\\\"echo {content} | base64 -d > {filename}\\\"".format(content=content, filename=filename)))
     else:
         exec("touch", args(filename))
+
     return filename
 
 

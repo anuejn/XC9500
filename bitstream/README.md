@@ -6,9 +6,9 @@ The following initial calculations assume, that all muxes are use one hot encodi
 
 ## Fast Connect II
 
-Most likely, the "Fast Connect II" switchbox has `(NUMBER_OF_IOs + NUMBER_OF_FBs * 18) * (NUMBER_OF_FBS * 54)` connections. Each of them determines the connection betwen one input and one output. Because one input can only connect to one output, there is probably one 8-10 bit value for each input.
+Most likely, the "Fast Connect II" switchbox has `(2 * NUMBER_OF_FBS * NUMBER_OF_MACROCELLS_PER_FB)` inputs. There are `18` macrocells per FB and each macrocell has a feedback path, that feeds the output of the macrocell into the switchbox and a input from a IO cell. Each function block has a `54` and array with `54` inputs, so the switchbox probably has `(NUMBER_OF_FBS * 54)` outputs. If this switchbox would use one hot encoding it would be huge, so it probably doesn't. Additionally the size of the bitstream of the different models is always `11664 * NUMBER_OF_FB`. If each device would always use the minimal encoding for the switchbox the number of bits used for this encoding should grow quadratically with the number of FBs. Because it only grows linear even the bitstreams for the small devices probably contain the bits for the largest possible switchbox (16 FBs). Going from the outputs, there are `576` different inputs (`2 * 16 * 18`) each output can connect to. This could be configured in no less than `10` bits per output.
 
-For the `XC9572XL-TQ100` this equals to `8 * (4 * 54)` = 1728 of 46656 and thus 3.7% of the total amount of fuses.
+For the `XC9572XL-TQ100` this equals to `10 * (4 * 54)` = 2160 of 46656 and thus 4.6% of the total amount of fuses.
 
 ## Function Blocks
 
@@ -43,6 +43,6 @@ For the `XC9572XL-TQ100` this equals to `72 * 9` = 648 of 46656 and thus 1% of t
 
 # Conclusion / Progress
 
-The above fuse definitions leave 0 of the 46656 Fuses of a `XC9572XL-TQ100` unexplained.
+The above fuse definitions leave 1728 of the 46656 Fuses of a `XC9572XL-TQ100` unexplained. Incidentially `1728` factors into `18 * 4 * 24` so we could be missing `24` bits per macrocell. 
 
-However, using two bits for a two input mux seems to be a doubious but since the numbers lign up quite well, we are probably having the fuses in the right blocks.
+Furthermore it is possible to store a 4 letter ascii usercode in the bitstream / device. Assuming `8` bits per letter this needs `32` fuses.

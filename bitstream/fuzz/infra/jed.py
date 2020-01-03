@@ -1,14 +1,17 @@
 import numpy as np
 
 # start of text
-
 STX = chr(0x2)
 # end of text
 ETX = chr(0x3)
 
 
-def parse(contents):
+def parse(*, filename=None, contents=None):
     config = {}
+
+    if filename is not None:
+        with open(filename) as f:
+            contents = f.read()
 
     comment, commands = contents.split(STX, 1)
     commands, checksum = commands.split(ETX, 1)

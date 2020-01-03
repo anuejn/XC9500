@@ -2,1194 +2,1294 @@
 	"bitstream_len": 23328,
 	"bits": {
 		"1302": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"FB1_13",
+			"FB1_9",
+			"FB1_17",
+			"FB1_6",
+			"FB1_15",
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
+			"FB1_7",
+			"not_inverted",
+			"FB1_16",
+			"FB1_18",
+			"FB1_1",
+			"FB1_11",
+			"FB1_4",
+			"FB1_2",
+			"FB1_8",
+			"constant_output_one",
+			"FB1_12",
+			"FB1_3",
+			"FB1_14",
+			"FB1_5",
+			"constant_output_zero",
+			"FB1_10",
+			"inverted",
+			"empty"
 		],
-		"1318": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+		"1350": [
+			"FB1_13",
+			"FB1_9",
+			"FB1_17",
+			"FB1_6",
+			"FB1_15",
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"1319": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
+			"FB1_7",
+			"not_inverted",
+			"FB1_16",
+			"FB1_18",
+			"FB1_1",
+			"FB1_11",
+			"FB1_4",
+			"FB1_2",
+			"FB1_8",
+			"constant_output_one",
+			"FB1_12",
+			"FB1_3",
+			"FB1_14",
+			"FB1_5",
+			"constant_output_zero",
+			"FB1_10",
 			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
-			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"1334": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
-			"passthrough",
-			"FB2_15",
-			"FB2_17"
+			"empty"
 		],
 		"1366": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"FB1_13",
+			"FB1_9",
+			"FB1_17",
+			"FB1_6",
+			"FB1_15",
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"1383": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
+			"FB1_7",
+			"not_inverted",
+			"FB1_16",
+			"FB1_18",
+			"FB1_1",
+			"FB1_11",
+			"FB1_4",
+			"FB1_2",
+			"FB1_8",
+			"constant_output_one",
+			"FB1_12",
+			"FB1_3",
+			"FB1_14",
+			"FB1_5",
+			"constant_output_zero",
+			"FB1_10",
 			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
-			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"1398": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
-			"passthrough",
-			"FB2_15",
-			"FB2_17"
+			"empty"
 		],
 		"1414": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"FB1_13",
+			"FB1_9",
+			"FB1_17",
+			"FB1_6",
+			"FB1_15",
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
+			"FB1_7",
+			"not_inverted",
+			"FB1_16",
+			"FB1_18",
+			"FB1_1",
+			"FB1_11",
+			"FB1_4",
+			"FB1_2",
+			"FB1_8",
+			"constant_output_one",
+			"FB1_12",
+			"FB1_3",
+			"FB1_14",
+			"FB1_5",
+			"constant_output_zero",
+			"FB1_10",
+			"inverted",
+			"empty"
 		],
 		"1518": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"FB1_13",
+			"FB1_9",
+			"FB1_17",
+			"FB1_6",
+			"FB1_15",
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"1534": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
+			"FB1_7",
+			"not_inverted",
+			"FB1_16",
+			"FB1_18",
+			"FB1_1",
+			"FB1_11",
+			"FB1_4",
+			"FB1_2",
+			"FB1_8",
+			"constant_output_one",
+			"FB1_12",
+			"FB1_3",
+			"FB1_14",
+			"FB1_5",
+			"constant_output_zero",
+			"FB1_10",
 			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
-			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"1535": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
-			"passthrough",
-			"FB2_15",
-			"FB2_17"
+			"empty"
 		],
 		"1566": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"FB1_13",
+			"FB1_9",
+			"FB1_17",
+			"FB1_6",
+			"FB1_15",
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"1567": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
+			"FB1_7",
+			"not_inverted",
+			"FB1_16",
+			"FB1_18",
+			"FB1_1",
+			"FB1_11",
+			"FB1_4",
+			"FB1_2",
+			"FB1_8",
+			"constant_output_one",
+			"FB1_12",
+			"FB1_3",
+			"FB1_14",
+			"FB1_5",
+			"constant_output_zero",
+			"FB1_10",
 			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
-			"passthrough",
-			"FB2_15",
-			"FB2_17"
+			"empty"
 		],
 		"1582": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"FB1_13",
+			"FB1_9",
+			"FB1_17",
+			"FB1_6",
+			"FB1_15",
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"1598": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
+			"FB1_7",
+			"not_inverted",
+			"FB1_16",
+			"FB1_18",
+			"FB1_1",
+			"FB1_11",
+			"FB1_4",
+			"FB1_2",
+			"FB1_8",
+			"constant_output_one",
+			"FB1_12",
+			"FB1_3",
+			"FB1_14",
+			"FB1_5",
+			"constant_output_zero",
+			"FB1_10",
 			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"empty"
+		],
+		"1630": [
+			"FB1_13",
+			"FB1_9",
+			"FB1_17",
+			"FB1_6",
+			"FB1_15",
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"1599": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
+			"FB1_7",
+			"not_inverted",
+			"FB1_16",
+			"FB1_18",
+			"FB1_1",
+			"FB1_11",
+			"FB1_4",
+			"FB1_2",
+			"FB1_8",
+			"constant_output_one",
+			"FB1_12",
+			"FB1_3",
+			"FB1_14",
+			"FB1_5",
+			"constant_output_zero",
+			"FB1_10",
 			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"empty"
+		],
+		"2598": [
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"1614": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
 			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"not_inverted",
+			"FB1_1"
+		],
+		"5622": [
+			"constant_output_zero",
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"2654": [
-			"FB2_4",
 			"inverted",
-			"passthrough"
+			"constant_output_one",
+			"not_inverted",
+			"FB1_1"
 		],
-		"5678": [
-			"FB2_4",
-			"inverted",
-			"passthrough"
-		],
-		"6273": [
-			"FB2_4",
-			"inverted",
-			"passthrough"
-		],
-		"6542": [
-			"FB2_4",
-			"inverted",
-			"passthrough"
-		],
-		"6974": [
-			"FB2_4",
-			"inverted",
-			"passthrough"
-		],
-		"9566": [
-			"FB2_4",
-			"inverted",
-			"passthrough"
-		],
-		"9782": [
-			"FB2_4",
-			"inverted",
-			"passthrough"
-		],
-		"13854": [
-			"FB2_14",
-			"FB2_16",
-			"FB2_3",
-			"FB2_13",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_8",
-			"FB2_4",
+		"6486": [
+			"constant_output_zero",
 			"passthrough",
-			"FB2_12",
-			"FB2_18",
-			"FB2_11",
-			"FB2_15",
-			"FB2_2",
-			"FB2_10",
-			"FB2_1",
-			"FB2_17"
-		],
-		"16862": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
 			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"constant_output_one",
+			"not_inverted",
+			"FB1_1"
+		],
+		"6912": [
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
+			"inverted",
+			"FB1_1"
+		],
+		"6918": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted",
+			"FB1_1"
+		],
+		"9510": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted",
+			"FB1_1"
+		],
+		"9726": [
+			"passthrough",
+			"inverted",
+			"not_inverted",
+			"FB1_1"
+		],
+		"14262": [
+			"FB1_13",
+			"FB1_9",
+			"FB1_11",
+			"FB1_17",
+			"FB1_6",
+			"FB1_12",
+			"FB1_3",
+			"passthrough",
+			"FB1_14",
+			"FB1_15",
+			"FB1_7",
+			"FB1_2",
+			"FB1_10",
+			"FB1_8",
+			"inverted",
+			"not_inverted",
+			"FB1_1",
+			"FB1_16"
+		],
+		"16854": [
+			"FB1_13",
+			"FB1_9",
+			"FB1_17",
+			"FB1_6",
+			"FB1_15",
+			"passthrough",
+			"FB1_7",
+			"not_inverted",
+			"FB1_16",
+			"FB1_18",
+			"FB1_1",
+			"FB1_11",
+			"FB1_4",
+			"FB1_2",
+			"FB1_8",
+			"constant_output_one",
+			"FB1_12",
+			"FB1_3",
+			"FB1_14",
+			"FB1_5",
+			"constant_output_zero",
+			"FB1_10",
+			"inverted"
 		],
 		"16950": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"FB1_13",
+			"FB1_9",
+			"FB1_17",
+			"FB1_6",
+			"FB1_15",
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
+			"FB1_7",
+			"not_inverted",
+			"FB1_16",
+			"FB1_18",
+			"FB1_1",
+			"FB1_11",
+			"FB1_4",
+			"FB1_2",
+			"FB1_8",
+			"constant_output_one",
+			"FB1_12",
+			"FB1_3",
+			"FB1_14",
+			"FB1_5",
+			"constant_output_zero",
+			"FB1_10",
+			"inverted",
+			"empty"
 		],
 		"16958": [
-			"FB2_16",
-			"FB2_8",
-			"FB2_12",
-			"FB2_5",
-			"FB2_10",
-			"FB2_14",
-			"FB2_4",
-			"FB2_6",
-			"FB2_2",
-			"FB2_1",
-			"inverted",
-			"FB2_7",
-			"FB2_9",
-			"FB2_18",
-			"FB2_11",
-			"FB2_3",
-			"FB2_13",
+			"FB1_13",
+			"FB1_9",
+			"FB1_17",
+			"FB1_6",
+			"FB1_15",
 			"passthrough",
-			"FB2_15",
-			"FB2_17"
-		],
-		"2606": [
-			"FB2_1",
+			"FB1_7",
+			"not_inverted",
+			"FB1_16",
+			"FB1_18",
+			"FB1_1",
+			"FB1_11",
+			"FB1_4",
+			"FB1_2",
+			"FB1_8",
+			"constant_output_one",
+			"FB1_12",
+			"FB1_3",
+			"FB1_14",
+			"FB1_5",
+			"constant_output_zero",
+			"FB1_10",
 			"inverted",
-			"passthrough"
+			"empty"
 		],
-		"5630": [
-			"FB2_1",
+		"2614": [
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"FB1_2",
+			"not_inverted"
 		],
-		"6272": [
-			"FB2_1",
+		"5638": [
+			"constant_output_zero",
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"FB1_2",
+			"constant_output_one",
+			"not_inverted"
 		],
-		"6494": [
-			"FB2_1",
+		"6502": [
+			"constant_output_zero",
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"FB1_2",
+			"constant_output_one",
+			"not_inverted"
 		],
-		"6926": [
-			"FB2_1",
+		"6934": [
+			"constant_output_zero",
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"FB1_2",
+			"constant_output_one",
+			"not_inverted"
 		],
-		"9518": [
-			"FB2_1",
+		"6992": [
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"FB1_2"
 		],
-		"9734": [
-			"FB2_1",
+		"9526": [
+			"constant_output_zero",
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"FB1_2",
+			"constant_output_one",
+			"not_inverted"
 		],
-		"2638": [
-			"FB2_3",
+		"9742": [
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"FB1_2",
+			"not_inverted"
 		],
-		"5662": [
-			"FB2_3",
+		"2630": [
+			"FB1_3",
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"not_inverted"
 		],
-		"6426": [
-			"FB2_3",
+		"5654": [
+			"constant_output_zero",
+			"FB1_3",
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"constant_output_one",
+			"not_inverted"
 		],
-		"6526": [
-			"FB2_3",
+		"6518": [
+			"constant_output_zero",
+			"FB1_3",
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"constant_output_one",
+			"not_inverted"
 		],
-		"6958": [
-			"FB2_3",
+		"6950": [
+			"constant_output_zero",
+			"FB1_3",
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"constant_output_one",
+			"not_inverted"
 		],
-		"9550": [
-			"FB2_3",
-			"inverted",
-			"passthrough"
+		"7068": [
+			"FB1_3",
+			"passthrough",
+			"inverted"
 		],
-		"9766": [
-			"FB2_3",
+		"9542": [
+			"constant_output_zero",
+			"FB1_3",
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"constant_output_one",
+			"not_inverted"
 		],
-		"2622": [
-			"FB2_2",
+		"9758": [
+			"FB1_3",
+			"passthrough",
 			"inverted",
-			"passthrough"
+			"not_inverted"
+		],
+		"2646": [
+			"passthrough",
+			"inverted",
+			"FB1_4",
+			"not_inverted"
+		],
+		"5670": [
+			"FB1_4",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6534": [
+			"FB1_4",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6966": [
+			"FB1_4",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9558": [
+			"FB1_4",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9774": [
+			"passthrough",
+			"inverted",
+			"FB1_4",
+			"not_inverted"
+		],
+		"15343": [
+			"passthrough",
+			"inverted",
+			"FB1_4",
+			"not_inverted"
+		],
+		"20737": [
+			"passthrough",
+			"inverted",
+			"FB1_4"
+		],
+		"2678": [
+			"passthrough",
+			"FB1_6",
+			"inverted",
+			"not_inverted"
+		],
+		"5702": [
+			"FB1_6",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6566": [
+			"FB1_6",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6998": [
+			"FB1_6",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"7069": [
+			"passthrough",
+			"FB1_6",
+			"inverted"
+		],
+		"9590": [
+			"FB1_6",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9806": [
+			"passthrough",
+			"FB1_6",
+			"inverted",
+			"not_inverted"
+		],
+		"2694": [
+			"passthrough",
+			"inverted",
+			"FB1_7"
+		],
+		"5718": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_7",
+			"constant_output_one"
+		],
+		"6582": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_7",
+			"constant_output_one"
+		],
+		"6914": [
+			"passthrough",
+			"inverted",
+			"FB1_7"
+		],
+		"7014": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_7",
+			"constant_output_one"
+		],
+		"9606": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_7",
+			"constant_output_one"
+		],
+		"9822": [
+			"passthrough",
+			"inverted",
+			"FB1_7"
+		],
+		"2710": [
+			"FB1_8",
+			"passthrough",
+			"inverted"
+		],
+		"5734": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_8",
+			"constant_output_one"
+		],
+		"6598": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_8",
+			"constant_output_one"
+		],
+		"6994": [
+			"FB1_8",
+			"passthrough",
+			"inverted"
+		],
+		"7030": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_8",
+			"constant_output_one"
+		],
+		"9622": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_8",
+			"constant_output_one"
+		],
+		"9838": [
+			"FB1_8",
+			"passthrough",
+			"inverted"
+		],
+		"2726": [
+			"passthrough",
+			"inverted",
+			"FB1_9",
+			"not_inverted"
+		],
+		"5750": [
+			"FB1_9",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6614": [
+			"FB1_9",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"7046": [
+			"FB1_9",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"7070": [
+			"passthrough",
+			"inverted",
+			"FB1_9"
+		],
+		"9638": [
+			"FB1_9",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9854": [
+			"passthrough",
+			"inverted",
+			"FB1_9",
+			"not_inverted"
+		],
+		"2599": [
+			"passthrough",
+			"inverted",
+			"FB1_10",
+			"not_inverted"
+		],
+		"5623": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_10",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6487": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_10",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6915": [
+			"passthrough",
+			"inverted",
+			"FB1_10"
+		],
+		"6919": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_10",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9511": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_10",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9727": [
+			"passthrough",
+			"inverted",
+			"FB1_10",
+			"not_inverted"
+		],
+		"2647": [
+			"FB1_13",
+			"passthrough",
+			"inverted",
+			"not_inverted"
+		],
+		"5671": [
+			"FB1_13",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6535": [
+			"FB1_13",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6916": [
+			"FB1_13",
+			"passthrough",
+			"inverted"
+		],
+		"6967": [
+			"FB1_13",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9559": [
+			"FB1_13",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9775": [
+			"FB1_13",
+			"passthrough",
+			"inverted",
+			"not_inverted"
+		],
+		"2663": [
+			"FB1_14",
+			"passthrough",
+			"inverted",
+			"not_inverted"
+		],
+		"5687": [
+			"constant_output_zero",
+			"FB1_14",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6551": [
+			"constant_output_zero",
+			"FB1_14",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6983": [
+			"constant_output_zero",
+			"FB1_14",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6996": [
+			"FB1_14",
+			"passthrough",
+			"inverted"
+		],
+		"9575": [
+			"constant_output_zero",
+			"FB1_14",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9791": [
+			"FB1_14",
+			"passthrough",
+			"inverted",
+			"not_inverted"
+		],
+		"2695": [
+			"passthrough",
+			"inverted",
+			"not_inverted",
+			"FB1_16"
+		],
+		"5719": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted",
+			"FB1_16"
+		],
+		"6583": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted",
+			"FB1_16"
+		],
+		"6917": [
+			"passthrough",
+			"inverted",
+			"FB1_16"
+		],
+		"7015": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted",
+			"FB1_16"
+		],
+		"9607": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted",
+			"FB1_16"
+		],
+		"9823": [
+			"passthrough",
+			"inverted",
+			"not_inverted",
+			"FB1_16"
+		],
+		"2711": [
+			"passthrough",
+			"inverted",
+			"FB1_17",
+			"not_inverted"
+		],
+		"5735": [
+			"FB1_17",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6599": [
+			"FB1_17",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6997": [
+			"passthrough",
+			"inverted",
+			"FB1_17"
+		],
+		"7031": [
+			"FB1_17",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9623": [
+			"FB1_17",
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9839": [
+			"passthrough",
+			"inverted",
+			"FB1_17",
+			"not_inverted"
+		],
+		"2727": [
+			"passthrough",
+			"inverted",
+			"FB1_18",
+			"not_inverted"
+		],
+		"5751": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_18",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6615": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_18",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"7047": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_18",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9639": [
+			"constant_output_zero",
+			"passthrough",
+			"inverted",
+			"FB1_18",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9855": [
+			"passthrough",
+			"inverted",
+			"FB1_18",
+			"not_inverted"
+		],
+		"13399": [
+			"passthrough",
+			"inverted",
+			"FB1_18",
+			"not_inverted"
+		],
+		"17009": [
+			"passthrough",
+			"inverted",
+			"FB1_18"
+		],
+		"7128": [
+			"passthrough",
+			"not_inverted",
+			"FB1_1"
+		],
+		"7208": [
+			"passthrough",
+			"FB1_2",
+			"not_inverted"
+		],
+		"7284": [
+			"FB1_3",
+			"passthrough",
+			"not_inverted"
+		],
+		"20953": [
+			"passthrough",
+			"FB1_4",
+			"not_inverted"
+		],
+		"7285": [
+			"passthrough",
+			"FB1_6",
+			"not_inverted"
+		],
+		"7286": [
+			"passthrough",
+			"FB1_9",
+			"not_inverted"
+		],
+		"7131": [
+			"passthrough",
+			"FB1_10",
+			"not_inverted"
+		],
+		"2615": [
+			"passthrough",
+			"FB1_11",
+			"not_inverted"
+		],
+		"5639": [
+			"FB1_11",
+			"constant_output_zero",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6503": [
+			"FB1_11",
+			"constant_output_zero",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6935": [
+			"FB1_11",
+			"constant_output_zero",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"7211": [
+			"passthrough",
+			"FB1_11",
+			"not_inverted"
+		],
+		"9527": [
+			"FB1_11",
+			"constant_output_zero",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9743": [
+			"passthrough",
+			"FB1_11",
+			"not_inverted"
+		],
+		"2631": [
+			"passthrough",
+			"not_inverted",
+			"FB1_12"
+		],
+		"5655": [
+			"constant_output_zero",
+			"FB1_12",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6519": [
+			"constant_output_zero",
+			"FB1_12",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6951": [
+			"constant_output_zero",
+			"FB1_12",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"7287": [
+			"passthrough",
+			"not_inverted",
+			"FB1_12"
+		],
+		"9543": [
+			"constant_output_zero",
+			"FB1_12",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9759": [
+			"passthrough",
+			"not_inverted",
+			"FB1_12"
+		],
+		"7132": [
+			"FB1_13",
+			"passthrough",
+			"not_inverted"
+		],
+		"7212": [
+			"FB1_14",
+			"passthrough",
+			"not_inverted"
+		],
+		"2679": [
+			"passthrough",
+			"not_inverted",
+			"FB1_15"
+		],
+		"5703": [
+			"constant_output_zero",
+			"FB1_15",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6567": [
+			"constant_output_zero",
+			"FB1_15",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"6999": [
+			"constant_output_zero",
+			"FB1_15",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"7288": [
+			"passthrough",
+			"not_inverted",
+			"FB1_15"
+		],
+		"9591": [
+			"constant_output_zero",
+			"FB1_15",
+			"passthrough",
+			"constant_output_one",
+			"not_inverted"
+		],
+		"9807": [
+			"passthrough",
+			"not_inverted",
+			"FB1_15"
+		],
+		"7133": [
+			"passthrough",
+			"not_inverted",
+			"FB1_16"
+		],
+		"7213": [
+			"passthrough",
+			"not_inverted",
+			"FB1_17"
+		],
+		"17225": [
+			"passthrough",
+			"FB1_18",
+			"not_inverted"
+		],
+		"4782": [
+			"empty"
 		],
 		"5646": [
-			"FB2_2",
-			"inverted",
-			"passthrough"
-		],
-		"6352": [
-			"FB2_2",
-			"inverted",
-			"passthrough"
+			"empty"
 		],
 		"6510": [
-			"FB2_2",
-			"inverted",
-			"passthrough"
+			"empty"
 		],
 		"6942": [
-			"FB2_2",
-			"inverted",
-			"passthrough"
+			"empty"
 		],
 		"9534": [
-			"FB2_2",
-			"inverted",
-			"passthrough"
-		],
-		"9750": [
-			"FB2_2",
-			"inverted",
-			"passthrough"
-		],
-		"2670": [
-			"FB2_5",
-			"inverted",
-			"passthrough"
-		],
-		"5694": [
-			"FB2_5",
-			"inverted",
-			"passthrough"
-		],
-		"6558": [
-			"FB2_5",
-			"inverted",
-			"passthrough"
-		],
-		"6990": [
-			"FB2_5",
-			"inverted",
-			"passthrough"
-		],
-		"9582": [
-			"FB2_5",
-			"inverted",
-			"passthrough"
-		],
-		"9798": [
-			"FB2_5",
-			"inverted",
-			"passthrough"
-		],
-		"15151": [
-			"FB2_5",
-			"inverted",
-			"passthrough"
-		],
-		"20609": [
-			"FB2_5",
-			"inverted",
-			"passthrough"
-		],
-		"2702": [
-			"inverted",
-			"passthrough",
-			"FB2_7"
-		],
-		"5726": [
-			"inverted",
-			"passthrough",
-			"FB2_7"
-		],
-		"6274": [
-			"inverted",
-			"passthrough",
-			"FB2_7"
-		],
-		"6590": [
-			"inverted",
-			"passthrough",
-			"FB2_7"
-		],
-		"7022": [
-			"inverted",
-			"passthrough",
-			"FB2_7"
-		],
-		"9614": [
-			"inverted",
-			"passthrough",
-			"FB2_7"
-		],
-		"9830": [
-			"inverted",
-			"passthrough",
-			"FB2_7"
-		],
-		"2686": [
-			"FB2_6",
-			"inverted",
-			"passthrough"
-		],
-		"5710": [
-			"FB2_6",
-			"inverted",
-			"passthrough"
-		],
-		"6574": [
-			"FB2_6",
-			"inverted",
-			"passthrough"
-		],
-		"7006": [
-			"FB2_6",
-			"inverted",
-			"passthrough"
-		],
-		"8587": [
-			"FB2_6",
-			"inverted",
-			"passthrough"
-		],
-		"9598": [
-			"FB2_6",
-			"inverted",
-			"passthrough"
-		],
-		"9814": [
-			"FB2_6",
-			"inverted",
-			"passthrough"
-		],
-		"14934": [
-			"FB2_6",
-			"inverted",
-			"passthrough"
-		],
-		"2718": [
-			"FB2_8",
-			"inverted",
-			"passthrough"
-		],
-		"5742": [
-			"FB2_8",
-			"inverted",
-			"passthrough"
-		],
-		"6354": [
-			"FB2_8",
-			"inverted",
-			"passthrough"
-		],
-		"6606": [
-			"FB2_8",
-			"inverted",
-			"passthrough"
-		],
-		"7038": [
-			"FB2_8",
-			"inverted",
-			"passthrough"
-		],
-		"9630": [
-			"FB2_8",
-			"inverted",
-			"passthrough"
-		],
-		"9846": [
-			"FB2_8",
-			"inverted",
-			"passthrough"
-		],
-		"2734": [
-			"FB2_9",
-			"inverted",
-			"passthrough"
-		],
-		"5758": [
-			"FB2_9",
-			"inverted",
-			"passthrough"
-		],
-		"6428": [
-			"FB2_9",
-			"inverted",
-			"passthrough"
-		],
-		"6622": [
-			"FB2_9",
-			"inverted",
-			"passthrough"
-		],
-		"7054": [
-			"FB2_9",
-			"inverted",
-			"passthrough"
-		],
-		"9646": [
-			"FB2_9",
-			"inverted",
-			"passthrough"
-		],
-		"9862": [
-			"FB2_9",
-			"inverted",
-			"passthrough"
-		],
-		"2607": [
-			"FB2_10",
-			"inverted",
-			"passthrough"
-		],
-		"5631": [
-			"FB2_10",
-			"inverted",
-			"passthrough"
-		],
-		"6275": [
-			"FB2_10",
-			"inverted",
-			"passthrough"
-		],
-		"6495": [
-			"FB2_10",
-			"inverted",
-			"passthrough"
-		],
-		"6927": [
-			"FB2_10",
-			"inverted",
-			"passthrough"
-		],
-		"9519": [
-			"FB2_10",
-			"inverted",
-			"passthrough"
-		],
-		"9735": [
-			"FB2_10",
-			"inverted",
-			"passthrough"
-		],
-		"2623": [
-			"FB2_11",
-			"inverted",
-			"passthrough"
-		],
-		"5647": [
-			"FB2_11",
-			"inverted",
-			"passthrough"
-		],
-		"6355": [
-			"FB2_11",
-			"inverted",
-			"passthrough"
-		],
-		"6511": [
-			"FB2_11",
-			"inverted",
-			"passthrough"
-		],
-		"6943": [
-			"FB2_11",
-			"inverted",
-			"passthrough"
-		],
-		"9535": [
-			"FB2_11",
-			"inverted",
-			"passthrough"
-		],
-		"9751": [
-			"FB2_11",
-			"inverted",
-			"passthrough"
-		],
-		"2639": [
-			"FB2_12",
-			"inverted",
-			"passthrough"
-		],
-		"5663": [
-			"FB2_12",
-			"inverted",
-			"passthrough"
-		],
-		"6429": [
-			"FB2_12",
-			"inverted",
-			"passthrough"
-		],
-		"6527": [
-			"FB2_12",
-			"inverted",
-			"passthrough"
-		],
-		"6959": [
-			"FB2_12",
-			"inverted",
-			"passthrough"
-		],
-		"9551": [
-			"FB2_12",
-			"inverted",
-			"passthrough"
-		],
-		"9767": [
-			"FB2_12",
-			"inverted",
-			"passthrough"
-		],
-		"2655": [
-			"FB2_13",
-			"inverted",
-			"passthrough"
-		],
-		"5679": [
-			"FB2_13",
-			"inverted",
-			"passthrough"
-		],
-		"6276": [
-			"FB2_13",
-			"inverted",
-			"passthrough"
-		],
-		"6543": [
-			"FB2_13",
-			"inverted",
-			"passthrough"
-		],
-		"6975": [
-			"FB2_13",
-			"inverted",
-			"passthrough"
-		],
-		"9567": [
-			"FB2_13",
-			"inverted",
-			"passthrough"
-		],
-		"9783": [
-			"FB2_13",
-			"inverted",
-			"passthrough"
-		],
-		"2671": [
-			"FB2_14",
-			"inverted",
-			"passthrough"
-		],
-		"5695": [
-			"FB2_14",
-			"inverted",
-			"passthrough"
-		],
-		"6356": [
-			"FB2_14",
-			"inverted",
-			"passthrough"
-		],
-		"6559": [
-			"FB2_14",
-			"inverted",
-			"passthrough"
-		],
-		"6991": [
-			"FB2_14",
-			"inverted",
-			"passthrough"
-		],
-		"9583": [
-			"FB2_14",
-			"inverted",
-			"passthrough"
-		],
-		"9799": [
-			"FB2_14",
-			"inverted",
-			"passthrough"
-		],
-		"2687": [
-			"FB2_15",
-			"inverted",
-			"passthrough"
-		],
-		"5711": [
-			"FB2_15",
-			"inverted",
-			"passthrough"
-		],
-		"6430": [
-			"FB2_15",
-			"inverted",
-			"passthrough"
-		],
-		"6575": [
-			"FB2_15",
-			"inverted",
-			"passthrough"
-		],
-		"7007": [
-			"FB2_15",
-			"inverted",
-			"passthrough"
-		],
-		"9599": [
-			"FB2_15",
-			"inverted",
-			"passthrough"
-		],
-		"9815": [
-			"FB2_15",
-			"inverted",
-			"passthrough"
-		],
-		"2703": [
-			"FB2_16",
-			"inverted",
-			"passthrough"
-		],
-		"5727": [
-			"FB2_16",
-			"inverted",
-			"passthrough"
-		],
-		"6277": [
-			"FB2_16",
-			"inverted",
-			"passthrough"
-		],
-		"6591": [
-			"FB2_16",
-			"inverted",
-			"passthrough"
-		],
-		"7023": [
-			"FB2_16",
-			"inverted",
-			"passthrough"
-		],
-		"9615": [
-			"FB2_16",
-			"inverted",
-			"passthrough"
-		],
-		"9831": [
-			"FB2_16",
-			"inverted",
-			"passthrough"
-		],
-		"2719": [
-			"FB2_17",
-			"inverted",
-			"passthrough"
-		],
-		"5743": [
-			"FB2_17",
-			"inverted",
-			"passthrough"
-		],
-		"6357": [
-			"FB2_17",
-			"inverted",
-			"passthrough"
-		],
-		"6607": [
-			"FB2_17",
-			"inverted",
-			"passthrough"
-		],
-		"7039": [
-			"FB2_17",
-			"inverted",
-			"passthrough"
-		],
-		"9631": [
-			"FB2_17",
-			"inverted",
-			"passthrough"
-		],
-		"9847": [
-			"FB2_17",
-			"inverted",
-			"passthrough"
-		],
-		"2735": [
-			"FB2_18",
-			"inverted",
-			"passthrough"
-		],
-		"5759": [
-			"FB2_18",
-			"inverted",
-			"passthrough"
-		],
-		"6431": [
-			"FB2_18",
-			"inverted",
-			"passthrough"
-		],
-		"6623": [
-			"FB2_18",
-			"inverted",
-			"passthrough"
-		],
-		"7055": [
-			"FB2_18",
-			"inverted",
-			"passthrough"
-		],
-		"9647": [
-			"FB2_18",
-			"inverted",
-			"passthrough"
-		],
-		"9863": [
-			"FB2_18",
-			"inverted",
-			"passthrough"
-		],
-		"6056": [
-			"FB2_1",
-			"inverted",
-			"passthrough"
-		],
-		"6136": [
-			"FB2_2",
-			"inverted",
-			"passthrough"
-		],
-		"6210": [
-			"FB2_3",
-			"inverted",
-			"passthrough"
-		],
-		"6057": [
-			"FB2_4",
-			"inverted",
-			"passthrough"
-		],
-		"20393": [
-			"inverted",
-			"FB2_5",
-			"passthrough"
-		],
-		"8371": [
-			"FB2_6",
-			"inverted",
-			"passthrough"
-		],
-		"6058": [
-			"inverted",
-			"passthrough",
-			"FB2_7"
-		],
-		"6138": [
-			"FB2_8",
-			"inverted",
-			"passthrough"
-		],
-		"6212": [
-			"FB2_9",
-			"inverted",
-			"passthrough"
-		],
-		"6059": [
-			"FB2_10",
-			"inverted",
-			"passthrough"
-		],
-		"6139": [
-			"inverted",
-			"FB2_11",
-			"passthrough"
-		],
-		"6213": [
-			"FB2_12",
-			"inverted",
-			"passthrough"
-		],
-		"6060": [
-			"FB2_13",
-			"inverted",
-			"passthrough"
-		],
-		"6140": [
-			"FB2_14",
-			"inverted",
-			"passthrough"
-		],
-		"6214": [
-			"FB2_15",
-			"inverted",
-			"passthrough"
-		],
-		"6061": [
-			"FB2_16",
-			"inverted",
-			"passthrough"
-		],
-		"6141": [
-			"inverted",
-			"FB2_17",
-			"passthrough"
-		],
-		"6215": [
-			"FB2_18",
-			"inverted",
-			"passthrough"
+			"empty"
+		],
+		"16862": [
+			"empty"
+		],
+		"4758": [
+			"constant_output_one",
+			"FB1_1"
+		],
+		"4774": [
+			"constant_output_one",
+			"FB1_2"
+		],
+		"4790": [
+			"FB1_3",
+			"constant_output_one"
+		],
+		"4806": [
+			"constant_output_one",
+			"FB1_4"
+		],
+		"4822": [
+			"FB1_5",
+			"constant_output_one"
+		],
+		"5686": [
+			"FB1_5",
+			"constant_output_one",
+			"constant_output_zero"
+		],
+		"6550": [
+			"FB1_5",
+			"constant_output_one",
+			"constant_output_zero"
+		],
+		"6982": [
+			"FB1_5",
+			"constant_output_one",
+			"constant_output_zero"
+		],
+		"9574": [
+			"FB1_5",
+			"constant_output_one",
+			"constant_output_zero"
+		],
+		"4838": [
+			"FB1_6",
+			"constant_output_one"
+		],
+		"4854": [
+			"constant_output_one",
+			"FB1_7"
+		],
+		"4870": [
+			"FB1_8",
+			"constant_output_one"
+		],
+		"4886": [
+			"constant_output_one",
+			"FB1_9"
+		],
+		"4759": [
+			"constant_output_one",
+			"FB1_10"
+		],
+		"4775": [
+			"constant_output_one",
+			"FB1_11"
+		],
+		"4791": [
+			"constant_output_one",
+			"FB1_12"
+		],
+		"4807": [
+			"FB1_13",
+			"constant_output_one"
+		],
+		"4823": [
+			"FB1_14",
+			"constant_output_one"
+		],
+		"4839": [
+			"constant_output_one",
+			"FB1_15"
+		],
+		"4855": [
+			"constant_output_one",
+			"FB1_16"
+		],
+		"4871": [
+			"constant_output_one",
+			"FB1_17"
+		],
+		"4887": [
+			"FB1_18",
+			"constant_output_one"
 		]
 	}
 }

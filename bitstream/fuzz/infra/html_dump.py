@@ -98,8 +98,8 @@ def gen_html_view(filename, data, highlight, known, *, title=None):
 
 
 outdir = "out/"
-base = outdir + "1_0_xor.jed"
-diff = outdir + "route_single_no_wysiwyg_2_15_to_1_1.jed"
+base = outdir + "route_single_no_wysiwyg_1_2_to_1_1.jed"
+diff = outdir + "route_single_no_wysiwyg_1_3_to_1_1.jed"
 name = "base: {} [usercode: {}] diff: {} [usercode: {}]".format(base, decode_usercode(flat_bit_data(base, fb=None)), diff, decode_usercode(flat_bit_data(diff, fb=None)))
 data = flat_bit_data(base, fb=None)
 

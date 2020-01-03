@@ -104,7 +104,7 @@ def hprep6(label, vm6_file):
     return vm6_file.replace(".vm6", ".jed")
 
 
-def synth(device, vhdl, ucf, label="test"):
+def synth(device, vhdl, ucf, label="AAAA"):
     try:
         synth_result = xst(tmpfile(vhdl, suffix=".vhd"), "passthrough")
         ndg_file = ngdbuild(ngc_file=synth_result, device=device, ucf_file=tmpfile(ucf, suffix=".ucf"))
