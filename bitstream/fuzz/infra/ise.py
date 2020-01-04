@@ -43,7 +43,7 @@ def xst_file(prj_file, top, output):
     """.format(tmpdir=tempfile.gettempdir(), prj_file=prj_file, top=top, output=output), suffix=".xst")
 
 
-def xst(vhdl_file, top):
+def xst(vhdl_file, top, extra_options={}):
     # xst -intstyle ise -ifn /root/ise_test/test/fadd.xst -ofn /root/ise_test/test/fadd.syr
     synth_result = vhdl_file.replace(".vhd", ".ngc")
     exec(
@@ -54,7 +54,7 @@ def xst(vhdl_file, top):
     return synth_result
 
 
-def ngdbuild(device, ngc_file, ucf_file):
+def ngdbuild(device, ngc_file, ucf_file, extra_options={}):
     # example: ngdbuild -intstyle ise -dd _ngo -uc fadd.ucf -p $DEVICE fadd.ngc fadd.ngd
     ngd_file = tmpfile(hash_seed=ngc_file+ucf_file+device, suffix=".ngd")
     exec(
@@ -69,7 +69,7 @@ def ngdbuild(device, ngc_file, ucf_file):
     return ngd_file
 
 
-def cpldfit(device, ngd_file):
+def cpldfit(device, ngd_file, extra_options={}):
     # cpldfit -intstyle ise -p $DEVICE -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 50 -unused float -power std -terminate keeper fadd.ngd -wysiwyg
 
     exec("cpldfit", working_dir=tempfile.gettempdir(), args=args(
@@ -92,8 +92,13 @@ def cpldfit(device, ngd_file):
     return ngd_file.replace(".ngd", ".vm6")
 
 
-def hprep6(label, vm6_file):
+def hprep6(label, vm6_file, extra_options={}):
     # example: hprep6 -s IEEE1149 -n fadd -i fadd
+
+    if "usercode" in extra_options:
+        label = extra_options["usercode"]
+
+    print("label = {}".format(label))
 
     exec("hprep6", working_dir=tempfile.gettempdir(), args=args(
         s="IEEE1149",
@@ -104,12 +109,12 @@ def hprep6(label, vm6_file):
     return vm6_file.replace(".vm6", ".jed")
 
 
-def synth(device, vhdl, ucf, label="AAAA"):
+def synth(device, vhdl, ucf, label="AAAA", extra_options={}):
     try:
-        synth_result = xst(tmpfile(vhdl, suffix=".vhd"), "passthrough")
-        ndg_file = ngdbuild(ngc_file=synth_result, device=device, ucf_file=tmpfile(ucf, suffix=".ucf"))
-        fit_result = cpldfit(ngd_file=ndg_file, device=device)
-        jedec = hprep6(vm6_file=fit_result, label=label)
+        synth_result = xst(tmpfile(vhdl, suffix=".vhd"), "passthrough", extra_options=extra_options)
+        ndg_file = ngdbuild(ngc_file=synth_result, device=device, ucf_file=tmpfile(ucf, suffix=".ucf"), extra_options=extra_options)
+        fit_result = cpldfit(ngd_file=ndg_file, device=device, extra_options=extra_options)
+        jedec = hprep6(vm6_file=fit_result, label=label, extra_options=extra_options)
         jedec_content = cat(jedec)
     except CalledProcessError as err:
         raise Exception("SYNTH OF DESIGN FAILED!\nvhdl:{vhdl}\nvhdl:{ucf}\nerror:\n{error}\n".format(

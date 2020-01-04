@@ -36,9 +36,12 @@ def collect_testcases():
 
 
 def exec_testcase(testcase):
-    vhdl, ucf, labels = testcase
+    vhdl, ucf, labels, *extra_options = testcase
+
+    extra_options = extra_options[0] if extra_options else {}
+
     try:
-        ret = (testcase, ise.synth(DEVICE, vhdl, ucf))
+        ret = (testcase, ise.synth(DEVICE, vhdl, ucf, extra_options=extra_options))
         print(".", end="", flush=True)
         return ret
     except Exception as err:
@@ -57,7 +60,7 @@ def write_database(results):
     successful_results = [(experiment, jed.parse(contents=result)) for experiment, result in results if isinstance(result, str)]
     database = defaultdict(set)
     for experiment, result in successful_results:
-        vhdl, ucf, tags = experiment
+        vhdl, ucf, tags, *extra_options = experiment
         config, data = result
         for one_bit in np.nonzero(data)[0]:
             for tag in tags:

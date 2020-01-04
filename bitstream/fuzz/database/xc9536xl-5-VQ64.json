@@ -2,1210 +2,1597 @@
 	"bitstream_len": 23328,
 	"bits": {
 		"1302": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_17",
-			"FB1_6",
-			"FB1_15",
-			"passthrough",
-			"FB1_7",
-			"not_inverted",
-			"FB1_16",
-			"FB1_18",
-			"FB1_1",
-			"FB1_11",
-			"FB1_4",
-			"FB1_2",
-			"FB1_8",
-			"constant_output_one",
-			"FB1_12",
-			"FB1_3",
-			"FB1_14",
-			"FB1_5",
 			"constant_output_zero",
+			"usercode_letter_1_bit_3",
+			"empty",
+			"FB1_1",
+			"usercode_letter_1_bit_1",
+			"FB1_4",
+			"FB1_16",
+			"usercode_letter_3_bit_6",
+			"FB1_11",
+			"constant_output_one",
+			"FB1_7",
 			"FB1_10",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_5",
+			"usercode_letter_1_bit_6",
+			"FB1_15",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_0_bit_0",
+			"FB1_9",
+			"FB1_3",
+			"FB1_12",
+			"usercode_letter_3_bit_1",
 			"inverted",
-			"empty"
+			"FB1_8",
+			"FB1_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_1_bit_7",
+			"FB1_13",
+			"not_inverted",
+			"FB1_17",
+			"FB1_18",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"usercode_letter_2_bit_7",
+			"usercode",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_3_bit_4",
+			"usercode_letter_2_bit_6",
+			"passthrough"
 		],
 		"1350": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_17",
-			"FB1_6",
-			"FB1_15",
-			"passthrough",
-			"FB1_7",
-			"not_inverted",
-			"FB1_16",
-			"FB1_18",
-			"FB1_1",
-			"FB1_11",
-			"FB1_4",
-			"FB1_2",
-			"FB1_8",
-			"constant_output_one",
-			"FB1_12",
-			"FB1_3",
-			"FB1_14",
-			"FB1_5",
 			"constant_output_zero",
+			"empty",
+			"FB1_1",
+			"FB1_4",
+			"FB1_16",
+			"usercode_letter_3_bit_6",
+			"FB1_11",
+			"constant_output_one",
+			"FB1_7",
 			"FB1_10",
+			"usercode_letter_3_bit_5",
+			"FB1_15",
+			"usercode_letter_0_bit_0",
+			"FB1_9",
+			"FB1_3",
+			"FB1_12",
 			"inverted",
-			"empty"
+			"FB1_8",
+			"FB1_2",
+			"FB1_13",
+			"not_inverted",
+			"FB1_17",
+			"FB1_18",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"usercode",
+			"usercode_letter_3_bit_4",
+			"passthrough"
 		],
 		"1366": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_17",
-			"FB1_6",
-			"FB1_15",
-			"passthrough",
-			"FB1_7",
-			"not_inverted",
-			"FB1_16",
-			"FB1_18",
-			"FB1_1",
-			"FB1_11",
-			"FB1_4",
-			"FB1_2",
-			"FB1_8",
-			"constant_output_one",
-			"FB1_12",
-			"FB1_3",
-			"FB1_14",
-			"FB1_5",
 			"constant_output_zero",
+			"empty",
+			"usercode_letter_2_bit_2",
+			"FB1_1",
+			"FB1_4",
+			"FB1_16",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_3_bit_6",
+			"FB1_11",
+			"constant_output_one",
+			"FB1_7",
 			"FB1_10",
+			"usercode_letter_3_bit_5",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_0_bit_2",
+			"FB1_15",
+			"usercode_letter_0_bit_0",
+			"FB1_9",
+			"FB1_3",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"FB1_12",
+			"usercode_letter_0_bit_3",
 			"inverted",
-			"empty"
+			"FB1_8",
+			"FB1_2",
+			"usercode_letter_0_bit_4",
+			"FB1_13",
+			"usercode_letter_2_bit_4",
+			"not_inverted",
+			"FB1_17",
+			"FB1_18",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"usercode",
+			"usercode_letter_3_bit_4",
+			"usercode_letter_2_bit_0",
+			"passthrough"
 		],
 		"1414": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_17",
-			"FB1_6",
-			"FB1_15",
-			"passthrough",
-			"FB1_7",
-			"not_inverted",
-			"FB1_16",
-			"FB1_18",
-			"FB1_1",
-			"FB1_11",
-			"FB1_4",
-			"FB1_2",
-			"FB1_8",
-			"constant_output_one",
-			"FB1_12",
-			"FB1_3",
-			"FB1_14",
-			"FB1_5",
 			"constant_output_zero",
+			"empty",
+			"FB1_1",
+			"FB1_4",
+			"FB1_16",
+			"usercode_letter_3_bit_6",
+			"FB1_11",
+			"constant_output_one",
+			"FB1_7",
 			"FB1_10",
+			"usercode_letter_3_bit_5",
+			"FB1_15",
+			"usercode_letter_0_bit_0",
+			"FB1_9",
+			"FB1_3",
+			"FB1_12",
 			"inverted",
-			"empty"
+			"FB1_8",
+			"FB1_2",
+			"FB1_13",
+			"not_inverted",
+			"FB1_17",
+			"FB1_18",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"usercode",
+			"usercode_letter_3_bit_4",
+			"passthrough"
 		],
 		"1518": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_17",
-			"FB1_6",
-			"FB1_15",
-			"passthrough",
-			"FB1_7",
-			"not_inverted",
-			"FB1_16",
-			"FB1_18",
-			"FB1_1",
-			"FB1_11",
-			"FB1_4",
-			"FB1_2",
-			"FB1_8",
-			"constant_output_one",
-			"FB1_12",
-			"FB1_3",
-			"FB1_14",
-			"FB1_5",
 			"constant_output_zero",
+			"usercode_letter_1_bit_3",
+			"empty",
+			"FB1_1",
+			"usercode_letter_1_bit_1",
+			"FB1_4",
+			"FB1_16",
+			"usercode_letter_3_bit_6",
+			"FB1_11",
+			"constant_output_one",
+			"FB1_7",
 			"FB1_10",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_5",
+			"usercode_letter_1_bit_6",
+			"FB1_15",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_0_bit_0",
+			"FB1_9",
+			"FB1_3",
+			"FB1_12",
+			"usercode_letter_3_bit_1",
 			"inverted",
-			"empty"
+			"FB1_8",
+			"FB1_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_1_bit_7",
+			"FB1_13",
+			"not_inverted",
+			"FB1_17",
+			"FB1_18",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"usercode_letter_2_bit_7",
+			"usercode",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_3_bit_4",
+			"usercode_letter_2_bit_6",
+			"passthrough"
 		],
 		"1566": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_17",
-			"FB1_6",
-			"FB1_15",
-			"passthrough",
-			"FB1_7",
-			"not_inverted",
-			"FB1_16",
-			"FB1_18",
-			"FB1_1",
-			"FB1_11",
-			"FB1_4",
-			"FB1_2",
-			"FB1_8",
-			"constant_output_one",
-			"FB1_12",
-			"FB1_3",
-			"FB1_14",
-			"FB1_5",
 			"constant_output_zero",
+			"empty",
+			"FB1_1",
+			"FB1_4",
+			"FB1_16",
+			"usercode_letter_3_bit_6",
+			"FB1_11",
+			"constant_output_one",
+			"FB1_7",
 			"FB1_10",
+			"usercode_letter_3_bit_5",
+			"FB1_15",
+			"usercode_letter_0_bit_0",
+			"FB1_9",
+			"FB1_3",
+			"FB1_12",
 			"inverted",
-			"empty"
+			"FB1_8",
+			"FB1_2",
+			"FB1_13",
+			"not_inverted",
+			"FB1_17",
+			"FB1_18",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"usercode",
+			"usercode_letter_3_bit_4",
+			"passthrough"
 		],
 		"1582": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_17",
-			"FB1_6",
-			"FB1_15",
-			"passthrough",
-			"FB1_7",
-			"not_inverted",
-			"FB1_16",
-			"FB1_18",
-			"FB1_1",
-			"FB1_11",
-			"FB1_4",
-			"FB1_2",
-			"FB1_8",
-			"constant_output_one",
-			"FB1_12",
-			"FB1_3",
-			"FB1_14",
-			"FB1_5",
 			"constant_output_zero",
+			"empty",
+			"usercode_letter_2_bit_2",
+			"FB1_1",
+			"FB1_4",
+			"FB1_16",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_3_bit_6",
+			"FB1_11",
+			"constant_output_one",
+			"FB1_7",
 			"FB1_10",
+			"usercode_letter_3_bit_5",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_1_bit_6",
+			"FB1_15",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_0_bit_0",
+			"FB1_9",
+			"FB1_3",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"FB1_12",
+			"usercode_letter_0_bit_3",
 			"inverted",
-			"empty"
+			"FB1_8",
+			"FB1_2",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_0_bit_4",
+			"FB1_13",
+			"usercode_letter_2_bit_4",
+			"not_inverted",
+			"FB1_17",
+			"FB1_18",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"usercode_letter_2_bit_7",
+			"usercode",
+			"usercode_letter_3_bit_4",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_2_bit_6",
+			"passthrough"
 		],
 		"1630": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_17",
-			"FB1_6",
-			"FB1_15",
-			"passthrough",
-			"FB1_7",
-			"not_inverted",
-			"FB1_16",
-			"FB1_18",
-			"FB1_1",
-			"FB1_11",
-			"FB1_4",
-			"FB1_2",
-			"FB1_8",
-			"constant_output_one",
-			"FB1_12",
-			"FB1_3",
-			"FB1_14",
-			"FB1_5",
 			"constant_output_zero",
+			"empty",
+			"FB1_1",
+			"FB1_4",
+			"FB1_16",
+			"usercode_letter_3_bit_6",
+			"FB1_11",
+			"constant_output_one",
+			"FB1_7",
 			"FB1_10",
+			"usercode_letter_3_bit_5",
+			"FB1_15",
+			"usercode_letter_0_bit_0",
+			"FB1_9",
+			"FB1_3",
+			"FB1_12",
 			"inverted",
-			"empty"
+			"FB1_8",
+			"FB1_2",
+			"FB1_13",
+			"not_inverted",
+			"FB1_17",
+			"FB1_18",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"usercode",
+			"usercode_letter_3_bit_4",
+			"passthrough"
 		],
 		"2598": [
-			"passthrough",
 			"inverted",
+			"FB1_1",
 			"not_inverted",
-			"FB1_1"
+			"passthrough"
 		],
 		"5622": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_1",
 			"inverted",
 			"constant_output_one",
-			"not_inverted",
-			"FB1_1"
+			"passthrough"
 		],
 		"6486": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_1",
 			"inverted",
 			"constant_output_one",
-			"not_inverted",
-			"FB1_1"
+			"passthrough"
 		],
 		"6912": [
-			"passthrough",
 			"inverted",
-			"FB1_1"
+			"FB1_1",
+			"passthrough"
 		],
 		"6918": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_1",
 			"inverted",
 			"constant_output_one",
-			"not_inverted",
-			"FB1_1"
+			"passthrough"
 		],
 		"9510": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_1",
 			"inverted",
 			"constant_output_one",
-			"not_inverted",
-			"FB1_1"
+			"passthrough"
 		],
 		"9726": [
-			"passthrough",
 			"inverted",
+			"FB1_1",
 			"not_inverted",
-			"FB1_1"
+			"passthrough"
 		],
 		"14262": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_11",
-			"FB1_17",
-			"FB1_6",
-			"FB1_12",
-			"FB1_3",
-			"passthrough",
-			"FB1_14",
-			"FB1_15",
-			"FB1_7",
-			"FB1_2",
-			"FB1_10",
-			"FB1_8",
-			"inverted",
-			"not_inverted",
 			"FB1_1",
-			"FB1_16"
+			"FB1_16",
+			"FB1_11",
+			"FB1_7",
+			"FB1_10",
+			"FB1_15",
+			"FB1_9",
+			"FB1_3",
+			"FB1_12",
+			"inverted",
+			"FB1_8",
+			"FB1_2",
+			"FB1_13",
+			"not_inverted",
+			"FB1_17",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"passthrough"
 		],
 		"16854": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_17",
-			"FB1_6",
-			"FB1_15",
-			"passthrough",
-			"FB1_7",
-			"not_inverted",
-			"FB1_16",
-			"FB1_18",
-			"FB1_1",
-			"FB1_11",
-			"FB1_4",
-			"FB1_2",
-			"FB1_8",
-			"constant_output_one",
-			"FB1_12",
-			"FB1_3",
-			"FB1_14",
-			"FB1_5",
 			"constant_output_zero",
+			"FB1_1",
+			"FB1_4",
+			"FB1_16",
+			"FB1_11",
+			"constant_output_one",
+			"FB1_7",
 			"FB1_10",
-			"inverted"
+			"FB1_15",
+			"FB1_9",
+			"FB1_3",
+			"FB1_12",
+			"inverted",
+			"FB1_8",
+			"FB1_2",
+			"FB1_13",
+			"not_inverted",
+			"FB1_17",
+			"FB1_18",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"passthrough"
 		],
 		"16950": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_17",
-			"FB1_6",
-			"FB1_15",
-			"passthrough",
-			"FB1_7",
-			"not_inverted",
-			"FB1_16",
-			"FB1_18",
-			"FB1_1",
-			"FB1_11",
-			"FB1_4",
-			"FB1_2",
-			"FB1_8",
-			"constant_output_one",
-			"FB1_12",
-			"FB1_3",
-			"FB1_14",
-			"FB1_5",
 			"constant_output_zero",
+			"usercode_letter_1_bit_3",
+			"empty",
+			"usercode_letter_2_bit_2",
+			"FB1_1",
+			"usercode_letter_1_bit_1",
+			"FB1_4",
+			"FB1_16",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_3_bit_6",
+			"FB1_11",
+			"constant_output_one",
+			"FB1_7",
 			"FB1_10",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_5",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_1_bit_6",
+			"FB1_15",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_0_bit_0",
+			"FB1_9",
+			"FB1_3",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"FB1_12",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_0_bit_3",
 			"inverted",
-			"empty"
+			"FB1_8",
+			"FB1_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_0_bit_4",
+			"FB1_13",
+			"usercode_letter_2_bit_4",
+			"not_inverted",
+			"FB1_17",
+			"FB1_18",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"usercode_letter_2_bit_7",
+			"usercode",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_3_bit_4",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_2_bit_6",
+			"passthrough"
 		],
 		"16958": [
-			"FB1_13",
-			"FB1_9",
-			"FB1_17",
-			"FB1_6",
-			"FB1_15",
-			"passthrough",
-			"FB1_7",
-			"not_inverted",
-			"FB1_16",
-			"FB1_18",
-			"FB1_1",
-			"FB1_11",
-			"FB1_4",
-			"FB1_2",
-			"FB1_8",
-			"constant_output_one",
-			"FB1_12",
-			"FB1_3",
-			"FB1_14",
-			"FB1_5",
 			"constant_output_zero",
+			"usercode_letter_1_bit_3",
+			"empty",
+			"usercode_letter_2_bit_2",
+			"FB1_1",
+			"usercode_letter_1_bit_1",
+			"FB1_4",
+			"FB1_16",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_3_bit_6",
+			"FB1_11",
+			"constant_output_one",
+			"FB1_7",
 			"FB1_10",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_5",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_1_bit_6",
+			"FB1_15",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_0_bit_0",
+			"FB1_9",
+			"FB1_3",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"FB1_12",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_0_bit_3",
 			"inverted",
-			"empty"
+			"FB1_8",
+			"FB1_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_0_bit_4",
+			"FB1_13",
+			"usercode_letter_2_bit_4",
+			"not_inverted",
+			"FB1_17",
+			"FB1_18",
+			"FB1_5",
+			"FB1_14",
+			"FB1_6",
+			"usercode_letter_2_bit_7",
+			"usercode",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_3_bit_4",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_2_bit_6",
+			"passthrough"
 		],
 		"2614": [
-			"passthrough",
-			"inverted",
 			"FB1_2",
-			"not_inverted"
+			"inverted",
+			"not_inverted",
+			"passthrough"
 		],
 		"5638": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
-			"FB1_2",
 			"constant_output_one",
-			"not_inverted"
+			"FB1_2",
+			"passthrough"
 		],
 		"6502": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
-			"FB1_2",
 			"constant_output_one",
-			"not_inverted"
+			"FB1_2",
+			"passthrough"
 		],
 		"6934": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
-			"FB1_2",
 			"constant_output_one",
-			"not_inverted"
+			"FB1_2",
+			"passthrough"
 		],
 		"6992": [
-			"passthrough",
+			"FB1_2",
 			"inverted",
-			"FB1_2"
+			"passthrough"
 		],
 		"9526": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
-			"FB1_2",
 			"constant_output_one",
-			"not_inverted"
+			"FB1_2",
+			"passthrough"
 		],
 		"9742": [
-			"passthrough",
-			"inverted",
 			"FB1_2",
-			"not_inverted"
+			"inverted",
+			"not_inverted",
+			"passthrough"
 		],
 		"2630": [
 			"FB1_3",
-			"passthrough",
 			"inverted",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
 		],
 		"5654": [
 			"constant_output_zero",
 			"FB1_3",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6518": [
 			"constant_output_zero",
 			"FB1_3",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6950": [
 			"constant_output_zero",
 			"FB1_3",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"7068": [
 			"FB1_3",
-			"passthrough",
-			"inverted"
+			"inverted",
+			"passthrough"
 		],
 		"9542": [
 			"constant_output_zero",
 			"FB1_3",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"9758": [
 			"FB1_3",
-			"passthrough",
 			"inverted",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
 		],
 		"2646": [
-			"passthrough",
 			"inverted",
-			"FB1_4",
-			"not_inverted"
-		],
-		"5670": [
-			"FB1_4",
-			"constant_output_zero",
 			"passthrough",
-			"inverted",
-			"constant_output_one",
-			"not_inverted"
-		],
-		"6534": [
-			"FB1_4",
-			"constant_output_zero",
-			"passthrough",
-			"inverted",
-			"constant_output_one",
-			"not_inverted"
-		],
-		"6966": [
-			"FB1_4",
-			"constant_output_zero",
-			"passthrough",
-			"inverted",
-			"constant_output_one",
-			"not_inverted"
-		],
-		"9558": [
-			"FB1_4",
-			"constant_output_zero",
-			"passthrough",
-			"inverted",
-			"constant_output_one",
-			"not_inverted"
-		],
-		"9774": [
-			"passthrough",
-			"inverted",
-			"FB1_4",
-			"not_inverted"
-		],
-		"15343": [
-			"passthrough",
-			"inverted",
-			"FB1_4",
-			"not_inverted"
-		],
-		"20737": [
-			"passthrough",
-			"inverted",
 			"FB1_4"
 		],
-		"2678": [
+		"5670": [
+			"constant_output_zero",
+			"FB1_4",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"6534": [
+			"constant_output_zero",
+			"FB1_4",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"6966": [
+			"constant_output_zero",
+			"FB1_4",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"9558": [
+			"constant_output_zero",
+			"FB1_4",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"9774": [
+			"inverted",
 			"passthrough",
+			"FB1_4"
+		],
+		"15343": [
+			"inverted",
+			"passthrough",
+			"FB1_4"
+		],
+		"20737": [
+			"inverted",
+			"passthrough",
+			"FB1_4"
+		],
+		"2662": [
+			"not_inverted",
+			"inverted",
+			"FB1_5",
+			"passthrough"
+		],
+		"5686": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_5",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"6550": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_5",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"6982": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_5",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"6993": [
+			"inverted",
+			"FB1_5",
+			"passthrough"
+		],
+		"9574": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_5",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"9790": [
+			"not_inverted",
+			"inverted",
+			"FB1_5",
+			"passthrough"
+		],
+		"2678": [
 			"FB1_6",
 			"inverted",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
 		],
 		"5702": [
-			"FB1_6",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_6",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6566": [
-			"FB1_6",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_6",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6998": [
-			"FB1_6",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_6",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"7069": [
-			"passthrough",
 			"FB1_6",
-			"inverted"
+			"inverted",
+			"passthrough"
 		],
 		"9590": [
-			"FB1_6",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_6",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"9806": [
-			"passthrough",
 			"FB1_6",
 			"inverted",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
 		],
 		"2694": [
-			"passthrough",
 			"inverted",
-			"FB1_7"
+			"FB1_7",
+			"passthrough"
 		],
 		"5718": [
 			"constant_output_zero",
-			"passthrough",
 			"inverted",
+			"constant_output_one",
 			"FB1_7",
-			"constant_output_one"
+			"passthrough"
 		],
 		"6582": [
 			"constant_output_zero",
-			"passthrough",
 			"inverted",
+			"constant_output_one",
 			"FB1_7",
-			"constant_output_one"
+			"passthrough"
 		],
 		"6914": [
-			"passthrough",
 			"inverted",
-			"FB1_7"
+			"FB1_7",
+			"passthrough"
 		],
 		"7014": [
 			"constant_output_zero",
-			"passthrough",
 			"inverted",
+			"constant_output_one",
 			"FB1_7",
-			"constant_output_one"
+			"passthrough"
 		],
 		"9606": [
 			"constant_output_zero",
-			"passthrough",
 			"inverted",
+			"constant_output_one",
 			"FB1_7",
-			"constant_output_one"
+			"passthrough"
 		],
 		"9822": [
-			"passthrough",
 			"inverted",
-			"FB1_7"
+			"FB1_7",
+			"passthrough"
 		],
 		"2710": [
+			"not_inverted",
+			"inverted",
 			"FB1_8",
-			"passthrough",
-			"inverted"
+			"passthrough"
 		],
 		"5734": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"FB1_8",
-			"constant_output_one"
+			"constant_output_one",
+			"passthrough"
 		],
 		"6598": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"FB1_8",
-			"constant_output_one"
+			"constant_output_one",
+			"passthrough"
 		],
 		"6994": [
+			"inverted",
 			"FB1_8",
-			"passthrough",
-			"inverted"
+			"passthrough"
 		],
 		"7030": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"FB1_8",
-			"constant_output_one"
+			"constant_output_one",
+			"passthrough"
 		],
 		"9622": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"FB1_8",
-			"constant_output_one"
+			"constant_output_one",
+			"passthrough"
 		],
 		"9838": [
+			"not_inverted",
+			"inverted",
 			"FB1_8",
-			"passthrough",
-			"inverted"
+			"passthrough"
 		],
 		"2726": [
-			"passthrough",
 			"inverted",
-			"FB1_9",
-			"not_inverted"
+			"not_inverted",
+			"passthrough",
+			"FB1_9"
 		],
 		"5750": [
-			"FB1_9",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough",
+			"FB1_9"
 		],
 		"6614": [
-			"FB1_9",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough",
+			"FB1_9"
 		],
 		"7046": [
-			"FB1_9",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough",
+			"FB1_9"
 		],
 		"7070": [
-			"passthrough",
 			"inverted",
+			"passthrough",
 			"FB1_9"
 		],
 		"9638": [
-			"FB1_9",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough",
+			"FB1_9"
 		],
 		"9854": [
-			"passthrough",
 			"inverted",
-			"FB1_9",
-			"not_inverted"
+			"not_inverted",
+			"passthrough",
+			"FB1_9"
 		],
 		"2599": [
-			"passthrough",
 			"inverted",
 			"FB1_10",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
 		],
 		"5623": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
-			"FB1_10",
 			"constant_output_one",
-			"not_inverted"
+			"FB1_10",
+			"passthrough"
 		],
 		"6487": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
-			"FB1_10",
 			"constant_output_one",
-			"not_inverted"
+			"FB1_10",
+			"passthrough"
 		],
 		"6915": [
-			"passthrough",
 			"inverted",
-			"FB1_10"
+			"FB1_10",
+			"passthrough"
 		],
 		"6919": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
-			"FB1_10",
 			"constant_output_one",
-			"not_inverted"
+			"FB1_10",
+			"passthrough"
 		],
 		"9511": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
 			"inverted",
-			"FB1_10",
 			"constant_output_one",
-			"not_inverted"
+			"FB1_10",
+			"passthrough"
 		],
 		"9727": [
-			"passthrough",
 			"inverted",
 			"FB1_10",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
+		],
+		"2631": [
+			"FB1_12",
+			"inverted",
+			"not_inverted",
+			"passthrough"
+		],
+		"5655": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_12",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"6519": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_12",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"6951": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_12",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"7071": [
+			"FB1_12",
+			"inverted",
+			"passthrough"
+		],
+		"9543": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_12",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"9759": [
+			"FB1_12",
+			"inverted",
+			"not_inverted",
+			"passthrough"
 		],
 		"2647": [
-			"FB1_13",
-			"passthrough",
 			"inverted",
-			"not_inverted"
+			"FB1_13",
+			"not_inverted",
+			"passthrough"
 		],
 		"5671": [
-			"FB1_13",
 			"constant_output_zero",
-			"passthrough",
+			"FB1_13",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6535": [
-			"FB1_13",
 			"constant_output_zero",
-			"passthrough",
+			"FB1_13",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6916": [
+			"inverted",
 			"FB1_13",
-			"passthrough",
-			"inverted"
+			"passthrough"
 		],
 		"6967": [
-			"FB1_13",
 			"constant_output_zero",
-			"passthrough",
+			"FB1_13",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"9559": [
-			"FB1_13",
 			"constant_output_zero",
-			"passthrough",
+			"FB1_13",
+			"not_inverted",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"9775": [
-			"FB1_13",
-			"passthrough",
 			"inverted",
-			"not_inverted"
+			"FB1_13",
+			"not_inverted",
+			"passthrough"
 		],
 		"2663": [
-			"FB1_14",
-			"passthrough",
 			"inverted",
-			"not_inverted"
+			"not_inverted",
+			"passthrough",
+			"FB1_14"
 		],
 		"5687": [
 			"constant_output_zero",
+			"not_inverted",
 			"FB1_14",
-			"passthrough",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6551": [
 			"constant_output_zero",
+			"not_inverted",
 			"FB1_14",
-			"passthrough",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6983": [
 			"constant_output_zero",
+			"not_inverted",
 			"FB1_14",
-			"passthrough",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6996": [
-			"FB1_14",
+			"inverted",
 			"passthrough",
-			"inverted"
+			"FB1_14"
 		],
 		"9575": [
 			"constant_output_zero",
+			"not_inverted",
 			"FB1_14",
-			"passthrough",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"9791": [
-			"FB1_14",
-			"passthrough",
-			"inverted",
-			"not_inverted"
-		],
-		"2695": [
-			"passthrough",
 			"inverted",
 			"not_inverted",
+			"passthrough",
+			"FB1_14"
+		],
+		"2679": [
+			"FB1_15",
+			"inverted",
+			"not_inverted",
+			"passthrough"
+		],
+		"5703": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_15",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"6567": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_15",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"6999": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_15",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"7072": [
+			"FB1_15",
+			"inverted",
+			"passthrough"
+		],
+		"9591": [
+			"constant_output_zero",
+			"not_inverted",
+			"FB1_15",
+			"inverted",
+			"constant_output_one",
+			"passthrough"
+		],
+		"9807": [
+			"FB1_15",
+			"inverted",
+			"not_inverted",
+			"passthrough"
+		],
+		"2695": [
+			"inverted",
+			"not_inverted",
+			"passthrough",
 			"FB1_16"
 		],
 		"5719": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_16",
 			"inverted",
 			"constant_output_one",
-			"not_inverted",
-			"FB1_16"
+			"passthrough"
 		],
 		"6583": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_16",
 			"inverted",
 			"constant_output_one",
-			"not_inverted",
-			"FB1_16"
+			"passthrough"
 		],
 		"6917": [
-			"passthrough",
 			"inverted",
+			"passthrough",
 			"FB1_16"
 		],
 		"7015": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_16",
 			"inverted",
 			"constant_output_one",
-			"not_inverted",
-			"FB1_16"
+			"passthrough"
 		],
 		"9607": [
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_16",
 			"inverted",
 			"constant_output_one",
-			"not_inverted",
-			"FB1_16"
+			"passthrough"
 		],
 		"9823": [
-			"passthrough",
 			"inverted",
 			"not_inverted",
+			"passthrough",
 			"FB1_16"
 		],
 		"2711": [
-			"passthrough",
 			"inverted",
-			"FB1_17",
-			"not_inverted"
+			"not_inverted",
+			"passthrough",
+			"FB1_17"
 		],
 		"5735": [
-			"FB1_17",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_17",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6599": [
-			"FB1_17",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_17",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6997": [
-			"passthrough",
 			"inverted",
+			"passthrough",
 			"FB1_17"
 		],
 		"7031": [
-			"FB1_17",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_17",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"9623": [
-			"FB1_17",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_17",
 			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"9839": [
-			"passthrough",
 			"inverted",
-			"FB1_17",
-			"not_inverted"
+			"not_inverted",
+			"passthrough",
+			"FB1_17"
 		],
 		"2727": [
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"FB1_18",
-			"not_inverted"
+			"passthrough"
 		],
 		"5751": [
 			"constant_output_zero",
-			"passthrough",
-			"inverted",
+			"not_inverted",
 			"FB1_18",
+			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6615": [
 			"constant_output_zero",
-			"passthrough",
-			"inverted",
+			"not_inverted",
 			"FB1_18",
+			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"7047": [
 			"constant_output_zero",
-			"passthrough",
-			"inverted",
+			"not_inverted",
 			"FB1_18",
+			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"9639": [
 			"constant_output_zero",
-			"passthrough",
-			"inverted",
+			"not_inverted",
 			"FB1_18",
+			"inverted",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"9855": [
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"FB1_18",
-			"not_inverted"
+			"passthrough"
 		],
 		"13399": [
-			"passthrough",
+			"not_inverted",
 			"inverted",
 			"FB1_18",
-			"not_inverted"
+			"passthrough"
 		],
 		"17009": [
-			"passthrough",
 			"inverted",
-			"FB1_18"
+			"FB1_18",
+			"passthrough"
 		],
 		"7128": [
-			"passthrough",
+			"FB1_1",
 			"not_inverted",
-			"FB1_1"
+			"passthrough"
 		],
 		"7208": [
-			"passthrough",
 			"FB1_2",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
 		],
 		"7284": [
 			"FB1_3",
-			"passthrough",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
 		],
-		"20953": [
-			"passthrough",
-			"FB1_4",
-			"not_inverted"
+		"7209": [
+			"FB1_5",
+			"not_inverted",
+			"passthrough"
 		],
 		"7285": [
-			"passthrough",
 			"FB1_6",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
+		],
+		"7210": [
+			"FB1_8",
+			"not_inverted",
+			"passthrough"
 		],
 		"7286": [
+			"not_inverted",
 			"passthrough",
-			"FB1_9",
-			"not_inverted"
+			"FB1_9"
 		],
 		"7131": [
-			"passthrough",
 			"FB1_10",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
 		],
 		"2615": [
-			"passthrough",
 			"FB1_11",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
 		],
 		"5639": [
-			"FB1_11",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_11",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6503": [
-			"FB1_11",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_11",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"6935": [
-			"FB1_11",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_11",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"7211": [
-			"passthrough",
 			"FB1_11",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
 		],
 		"9527": [
-			"FB1_11",
 			"constant_output_zero",
-			"passthrough",
+			"not_inverted",
+			"FB1_11",
 			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"9743": [
-			"passthrough",
 			"FB1_11",
-			"not_inverted"
-		],
-		"2631": [
-			"passthrough",
 			"not_inverted",
-			"FB1_12"
-		],
-		"5655": [
-			"constant_output_zero",
-			"FB1_12",
-			"passthrough",
-			"constant_output_one",
-			"not_inverted"
-		],
-		"6519": [
-			"constant_output_zero",
-			"FB1_12",
-			"passthrough",
-			"constant_output_one",
-			"not_inverted"
-		],
-		"6951": [
-			"constant_output_zero",
-			"FB1_12",
-			"passthrough",
-			"constant_output_one",
-			"not_inverted"
+			"passthrough"
 		],
 		"7287": [
-			"passthrough",
-			"not_inverted",
-			"FB1_12"
-		],
-		"9543": [
-			"constant_output_zero",
 			"FB1_12",
-			"passthrough",
-			"constant_output_one",
-			"not_inverted"
-		],
-		"9759": [
-			"passthrough",
 			"not_inverted",
-			"FB1_12"
+			"passthrough"
 		],
 		"7132": [
 			"FB1_13",
-			"passthrough",
-			"not_inverted"
+			"not_inverted",
+			"passthrough"
 		],
 		"7212": [
-			"FB1_14",
-			"passthrough",
-			"not_inverted"
-		],
-		"2679": [
-			"passthrough",
 			"not_inverted",
-			"FB1_15"
-		],
-		"5703": [
-			"constant_output_zero",
-			"FB1_15",
 			"passthrough",
-			"constant_output_one",
-			"not_inverted"
-		],
-		"6567": [
-			"constant_output_zero",
-			"FB1_15",
-			"passthrough",
-			"constant_output_one",
-			"not_inverted"
-		],
-		"6999": [
-			"constant_output_zero",
-			"FB1_15",
-			"passthrough",
-			"constant_output_one",
-			"not_inverted"
+			"FB1_14"
 		],
 		"7288": [
-			"passthrough",
-			"not_inverted",
-			"FB1_15"
-		],
-		"9591": [
-			"constant_output_zero",
 			"FB1_15",
-			"passthrough",
-			"constant_output_one",
-			"not_inverted"
-		],
-		"9807": [
-			"passthrough",
 			"not_inverted",
-			"FB1_15"
+			"passthrough"
 		],
 		"7133": [
-			"passthrough",
 			"not_inverted",
+			"passthrough",
 			"FB1_16"
 		],
 		"7213": [
-			"passthrough",
+			"FB1_17",
 			"not_inverted",
-			"FB1_17"
+			"passthrough"
 		],
 		"17225": [
-			"passthrough",
 			"FB1_18",
-			"not_inverted"
-		],
-		"4782": [
-			"empty"
+			"not_inverted",
+			"passthrough"
 		],
 		"5646": [
-			"empty"
+			"usercode_letter_1_bit_3",
+			"empty",
+			"usercode_letter_2_bit_2",
+			"usercode_letter_1_bit_1",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_3_bit_6",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_5",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_1_bit_6",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_0_bit_0",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_0_bit_3",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_2_bit_4",
+			"usercode_letter_2_bit_7",
+			"usercode",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_3_bit_4",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_2_bit_6",
+			"usercode_letter_0_bit_4"
 		],
 		"6510": [
-			"empty"
+			"usercode_letter_1_bit_3",
+			"empty",
+			"usercode_letter_2_bit_2",
+			"usercode_letter_1_bit_1",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_3_bit_6",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_5",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_1_bit_6",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_0_bit_0",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_0_bit_3",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_2_bit_4",
+			"usercode_letter_2_bit_7",
+			"usercode",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_3_bit_4",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_2_bit_6",
+			"usercode_letter_0_bit_4"
 		],
 		"6942": [
-			"empty"
+			"usercode_letter_1_bit_3",
+			"empty",
+			"usercode_letter_2_bit_2",
+			"usercode_letter_1_bit_1",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_3_bit_6",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_5",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_1_bit_6",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_0_bit_0",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_0_bit_3",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_2_bit_4",
+			"usercode_letter_2_bit_7",
+			"usercode",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_3_bit_4",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_2_bit_6",
+			"usercode_letter_0_bit_4"
 		],
 		"9534": [
-			"empty"
+			"usercode_letter_1_bit_3",
+			"empty",
+			"usercode_letter_2_bit_2",
+			"usercode_letter_1_bit_1",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_3_bit_6",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_5",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_1_bit_6",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_0_bit_0",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_0_bit_3",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_2_bit_4",
+			"usercode_letter_2_bit_7",
+			"usercode",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_3_bit_4",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_2_bit_6",
+			"usercode_letter_0_bit_4"
 		],
 		"16862": [
-			"empty"
+			"usercode_letter_1_bit_3",
+			"empty",
+			"usercode_letter_2_bit_2",
+			"usercode_letter_1_bit_1",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_3_bit_6",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_5",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_1_bit_6",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_0_bit_0",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_0_bit_3",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_2_bit_4",
+			"usercode_letter_2_bit_7",
+			"usercode",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_3_bit_4",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_2_bit_6",
+			"usercode_letter_0_bit_4"
 		],
 		"4758": [
-			"constant_output_one",
-			"FB1_1"
+			"FB1_1",
+			"constant_output_one"
 		],
 		"4774": [
-			"constant_output_one",
-			"FB1_2"
+			"FB1_2",
+			"constant_output_one"
 		],
 		"4790": [
 			"FB1_3",
@@ -1219,53 +1606,33 @@
 			"FB1_5",
 			"constant_output_one"
 		],
-		"5686": [
-			"FB1_5",
-			"constant_output_one",
-			"constant_output_zero"
-		],
-		"6550": [
-			"FB1_5",
-			"constant_output_one",
-			"constant_output_zero"
-		],
-		"6982": [
-			"FB1_5",
-			"constant_output_one",
-			"constant_output_zero"
-		],
-		"9574": [
-			"FB1_5",
-			"constant_output_one",
-			"constant_output_zero"
-		],
 		"4838": [
 			"FB1_6",
 			"constant_output_one"
 		],
 		"4854": [
-			"constant_output_one",
-			"FB1_7"
+			"FB1_7",
+			"constant_output_one"
 		],
 		"4870": [
 			"FB1_8",
 			"constant_output_one"
 		],
 		"4886": [
-			"constant_output_one",
-			"FB1_9"
+			"FB1_9",
+			"constant_output_one"
 		],
 		"4759": [
-			"constant_output_one",
-			"FB1_10"
+			"FB1_10",
+			"constant_output_one"
 		],
 		"4775": [
-			"constant_output_one",
-			"FB1_11"
+			"FB1_11",
+			"constant_output_one"
 		],
 		"4791": [
-			"constant_output_one",
-			"FB1_12"
+			"FB1_12",
+			"constant_output_one"
 		],
 		"4807": [
 			"FB1_13",
@@ -1276,20 +1643,189 @@
 			"constant_output_one"
 		],
 		"4839": [
-			"constant_output_one",
-			"FB1_15"
+			"FB1_15",
+			"constant_output_one"
 		],
 		"4855": [
 			"constant_output_one",
 			"FB1_16"
 		],
 		"4871": [
-			"constant_output_one",
-			"FB1_17"
+			"FB1_17",
+			"constant_output_one"
 		],
 		"4887": [
 			"FB1_18",
 			"constant_output_one"
+		],
+		"1351": [
+			"usercode_letter_1_bit_3",
+			"usercode_letter_1_bit_1",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_1_bit_6",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_0_bit_5",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_0_bit_3",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_2_bit_7",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_2_bit_6",
+			"usercode_letter_0_bit_4"
+		],
+		"1367": [
+			"usercode_letter_1_bit_3",
+			"usercode_letter_2_bit_2",
+			"usercode_letter_1_bit_1",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_1_bit_6",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_0_bit_3",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_2_bit_4",
+			"usercode_letter_2_bit_7",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_2_bit_6",
+			"usercode_letter_0_bit_4"
+		],
+		"1415": [
+			"usercode_letter_0_bit_2",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_2_bit_2",
+			"usercode_letter_2_bit_4",
+			"usercode_letter_0_bit_5",
+			"usercode_letter_0_bit_3",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_0_bit_4",
+			"usercode_letter_0_bit_1"
+		],
+		"1519": [
+			"usercode_letter_1_bit_3",
+			"usercode_letter_2_bit_2",
+			"usercode_letter_1_bit_1",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_0_bit_3",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_2_bit_4",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_0_bit_4"
+		],
+		"1583": [
+			"usercode_letter_1_bit_3",
+			"usercode_letter_2_bit_2",
+			"usercode_letter_1_bit_1",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_0_bit_1",
+			"usercode_letter_0_bit_2",
+			"usercode_letter_1_bit_6",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_0_bit_5",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_0_bit_3",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_2_bit_4",
+			"usercode_letter_2_bit_7",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_2_bit_6",
+			"usercode_letter_0_bit_4"
+		],
+		"1631": [
+			"usercode_letter_0_bit_2",
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_2_bit_2",
+			"usercode_letter_1_bit_6",
+			"usercode_letter_2_bit_4",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_0_bit_5",
+			"usercode_letter_2_bit_6",
+			"usercode_letter_0_bit_3",
+			"usercode_letter_0_bit_6",
+			"usercode_letter_3_bit_7",
+			"usercode_letter_2_bit_7",
+			"usercode_letter_2_bit_0",
+			"usercode_letter_1_bit_7",
+			"usercode_letter_0_bit_4",
+			"usercode_letter_0_bit_1"
+		],
+		"1303": [
+			"usercode_letter_1_bit_3",
+			"usercode_letter_1_bit_6",
+			"usercode_letter_3_bit_0",
+			"usercode_letter_2_bit_6",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_1_bit_1",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_2_bit_7",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_0",
+			"usercode_letter_1_bit_7"
+		],
+		"1567": [
+			"usercode_letter_1_bit_3",
+			"usercode_letter_3_bit_3",
+			"usercode_letter_1_bit_1",
+			"usercode_letter_3_bit_1",
+			"usercode_letter_3_bit_2",
+			"usercode_letter_1_bit_4",
+			"usercode_letter_1_bit_2",
+			"usercode_letter_0_bit_7",
+			"usercode_letter_1_bit_0"
+		],
+		"1334": [
+			"usercode_letter_2_bit_3",
+			"usercode_letter_2_bit_4",
+			"usercode_letter_2_bit_1",
+			"usercode_letter_2_bit_2",
+			"usercode_letter_2_bit_0"
 		]
 	}
 }
