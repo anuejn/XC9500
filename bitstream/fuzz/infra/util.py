@@ -68,10 +68,11 @@ def cache(key, value_lambda, cache_path='./.cache/exec_cache.pickle', cache_map=
     key_hash = hash(key.encode("utf-8")).hexdigest()
 
     def save():
-        if not exists(dirname(cache_path)):
-            makedirs(dirname(cache_path))
-        with open(cache_path, 'wb') as f:
-            pickle.dump(cache_map, f, protocol=pickle.HIGHEST_PROTOCOL)
+        if threading.current_thread() is threading.main_thread():
+            if not exists(dirname(cache_path)):
+                makedirs(dirname(cache_path))
+            with open(cache_path, 'wb') as f:
+                pickle.dump(cache_map, f, protocol=pickle.HIGHEST_PROTOCOL)
 
     def load():
         with open(cache_path, 'rb') as f:

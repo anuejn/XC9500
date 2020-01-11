@@ -41,7 +41,7 @@ def exec_testcase(testcase, jedecs):
         jedecs.append((testcase, ise.synth(DEVICE, vhdl, ucf)))
         print(".", end="")
     except Exception as err:
-        jedecs.append(testcase,  err)
+        jedecs.append((testcase,  err))
         print("e", end="", file=stderr)
 
 
