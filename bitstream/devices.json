@@ -1,0 +1,60 @@
+{
+  "XC9536XL": {
+    "macrocells": 2,
+    "speedgrade": 5,
+    "packages": {
+      "PC44": 34,
+      "PCG44": 34,
+      "VQ44": 34,
+      "VQG44": 34,
+      "CS48": 36,
+      "CSG48": 36,
+      "VQ64": 36,
+      "VQG64":364
+    }
+  },
+  "XC9572XL": {
+    "macrocells": 4,
+    "speedgrade": 5,
+    "packages": {
+      "PC44": 34,
+      "PCG44": 34,
+      "VQ44": 34,
+      "VQG44": 34,
+      "CS48": 38,
+      "CSG48": 38,
+      "VQ64": 52,
+      "VQG64": 52,
+      "TQ100": 72,
+      "TQG100": 72
+    }
+  },
+  "XC95144XL": {
+    "macrocells": 8,
+    "speedgrade": 5,
+    "packages": {
+      "TQ100": 81,
+      "TQG100": 81,
+      "CS144": 117,
+      "CSG144": 117,
+      "TQ144": 117,
+      "TQG144": 117
+    }
+  },
+  "XC95288XL": {
+    "macrocells": 16,
+    "speedgrade": 6,
+    "packages": {
+      "TQ144": 117,
+      "TQG144": 117,
+      "PQ208": 168,
+      "PQG208": 168,
+      "BG256": 192,
+      "BGG256": 192,
+      "FG256": 192,
+      "FGG256": 192,
+      "CS280": 192,
+      "CSG280":192
+    }
+  }
+}
