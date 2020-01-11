@@ -1,7 +1,7 @@
-import threading
+from multiprocessing import Pool
 from collections import defaultdict
 from glob import glob
-from os import cpu_count
+from infra.util import cpu_count
 from os.path import join, dirname
 import re
 from inspect import isfunction
@@ -35,39 +35,32 @@ def collect_testcases():
     return testcases
 
 
-def exec_testcase(testcase, jedecs):
-    vhdl, ucf, labels = testcase
+def exec_testcase(testcase):
+    vhdl, ucf, labels, *extra_options = testcase
+
+    extra_options = extra_options[0] if extra_options else {}
+
     try:
-        jedecs.append((testcase, ise.synth(DEVICE, vhdl, ucf)))
-        print(".", end="")
+        ret = (testcase, ise.synth(DEVICE, vhdl, ucf, extra_options=extra_options))
+        print(".", end="", flush=True)
+        return ret
     except Exception as err:
-        jedecs.append((testcase,  err))
-        print("e", end="", file=stderr)
+        ret = (testcase, err)
+        print("e", end="", file=stderr, flush=True)
+        return ret
 
 
 def run_tests(testcases):
-    results = []
-    threads = []
-    for testcase in testcases:
-        while len(threads) >= MAX_THREADS:
-            sleep(0.1)
-            threads = [t for t in threads if t.is_alive()]
-        t = threading.Thread(target=exec_testcase, args=(testcase, results))
-        t.start()
-        threads.append(t)
-    for thread in threads:
-        while thread.is_alive():
-            sleep(0.1)
-    sleep(0.3)
+    print("running with {} concurrent threads".format(MAX_THREADS))
+    p = Pool(MAX_THREADS)
 
-    return results
-
+    return p.map(exec_testcase, testcases)
 
 def write_database(results):
-    successful_results = [(experiment, jed.parse(result)) for experiment, result in results if isinstance(result, str)]
+    successful_results = [(experiment, jed.parse(contents=result)) for experiment, result in results if isinstance(result, str)]
     database = defaultdict(set)
     for experiment, result in successful_results:
-        vhdl, ucf, tags = experiment
+        vhdl, ucf, tags, *extra_options = experiment
         config, data = result
         for one_bit in np.nonzero(data)[0]:
             for tag in tags:
@@ -94,7 +87,7 @@ if __name__ == "__main__":
         if not isinstance(result, str):
             print(result, "\n")
 
-    print("\n#writing database:")
+    print("\n# writing database:")
     write_database(results)
 
 

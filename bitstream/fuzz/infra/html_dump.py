@@ -1,4 +1,4 @@
-from infra.bitstream import flat_bit_data, diff
+from infra.bitstream import flat_bit_data, diff as diff_bitstream, decode_usercode
 from colorhash import ColorHash
 
 def gen_fb(fb_data, highlight, known):
@@ -47,7 +47,7 @@ def gen_fb(fb_data, highlight, known):
     return ret
 
 # currently working of the assumption that for each function block the bitstream is a 108x108 square
-def gen_html_view(filename, data, highlight, known):
+def gen_html_view(filename, data, highlight, known, *, title=None):
     with open(filename, "w") as f:
         f.write("<!doctype html>")
         f.write("<head>")
@@ -86,6 +86,9 @@ def gen_html_view(filename, data, highlight, known):
         f.write("</head>")
         f.write("<body>")
 
+        if title is not None:
+            f.write("<h1>{}</h1>".format(title))
+
         for i, fb in enumerate(data):
             f.write("<h3> FB {} </h3>".format(i))
             f.write(gen_fb(fb, highlight[i], known[i]))
@@ -94,22 +97,50 @@ def gen_html_view(filename, data, highlight, known):
         f.write("</body>")
 
 
-data = flat_bit_data("out/1_0_xor.jed", fb=None)
-diff_position, a, b = diff("out/1_0_xor.jed", "out/1_1_xor.jed")
+outdir = "out/"
+base = outdir + "route_single_no_wysiwyg_1_2_to_1_1.jed"
+diff = outdir + "route_single_no_wysiwyg_1_3_to_1_1.jed"
+name = "base: {} [usercode: {}] diff: {} [usercode: {}]".format(base, decode_usercode(flat_bit_data(base, fb=None)), diff, decode_usercode(flat_bit_data(diff, fb=None)))
+data = flat_bit_data(base, fb=None)
+
+print(decode_usercode(data))
+
+diffs = []
+for fb in range(4):
+    diff_position, a, b = diff_bitstream(base, diff, fb=fb)
+    print("fb", fb, "diffs", diff_position, a, "->", b)
+    diffs.append(diff_position)
 
 known = {}
 
-offsets = [0, 40, 78, 1, 41, 79, 2, 42, 80, 3, 43, 81, 4, 44, 82, 5, 45, 83]
+offsets_pterm2 = [32, 72, 102, 33, 73, 103, 34, 74, 104, 35, 75, 105, 36, 76, 106, 37, 77, 107]
+offsets_pterma = [0, 40, 78, 1, 41, 79, 2, 42, 80, 3, 43, 81, 4, 44, 82, 5, 45, 83]
+offsets_ptermb = [8, 48, 84, 9, 49, 85, 10, 50, 86, 11, 51, 87, 12, 52, 88, 13, 53, 89]
+offsets_ptermc = [16, 56, 90, 17, 57, 91, 18, 58, 92, 19, 59, 93, 20, 60, 94, 21, 61, 95]
+offsets_ptermd = [24, 64, 96, 25, 65, 97, 26, 66, 98, 27, 67, 99, 28, 68, 100, 29, 69, 101]
 
-for mc in range(18):
-    mc += 1
 
-    bits = []
-    offset = offsets[mc - 1]
-    for bit in range(108):
-        bits.append(108 * 2 * bit + offset)
-        bits.append(108 * (2 * bit + 1) + offset)
+pterm_names = ["2", "a", "b", "c", "d"]
+offs = [offsets_pterm2, offsets_pterma, offsets_ptermb, offsets_ptermc, offsets_ptermd]
 
-    known["MC {} input 0?".format(mc)] = bits
+for i, offsets in enumerate(offs):
+    for mc in range(18):
+        mc += 1
 
-gen_html_view("test.html", data, [diff_position, [], [], []], [known, {}, {}, {}])
+        bits = []
+        offset = offsets[mc - 1]
+        for bit in range(108):
+            bits.append(108 * 2 * bit + offset)
+            bits.append(108 * (2 * bit + 1) + offset)
+
+        known["MC {} pterm {} and array input xx".format(mc, pterm_names[i])] = bits
+
+usercode = []
+for row in range(6, 8):
+    for col in range(8):
+        usercode.append(108 * row + 8 * col + 7)
+        usercode.append(108 * row + 8 * col + 6)
+
+known["usercode"] = usercode
+
+gen_html_view("test.html", data, diffs, [known, {}, {}, {}], title=name)
