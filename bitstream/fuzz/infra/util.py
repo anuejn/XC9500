@@ -10,7 +10,7 @@ import pickle
 import atexit
 
 def cpu_count():
-    return int(exec("sh", args(c="\\\"python3 -c 'import os; print(os.cpu_count())'\\\"")))
+    return int(exec("sh", args(c="\"python3 -c 'import os; print(os.cpu_count())'\"")))
 
 def tmpfile(content=None, hash_seed=None, suffix=None):
     if content is not None:
@@ -25,7 +25,7 @@ def tmpfile(content=None, hash_seed=None, suffix=None):
         content = clean(content)
         content = b64encode(content.encode("utf-8")).decode("utf-8")
 
-        exec("sh", args(c="\\\"echo {content} | base64 -d > {filename}\\\"".format(content=content, filename=filename)))
+        exec("sh", args(c="\"echo {content} | base64 -d > {filename}\"".format(content=content, filename=filename)))
     else:
         exec("touch", args(filename))
 
