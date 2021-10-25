@@ -1,5 +1,6 @@
 from subprocess import CalledProcessError
 from textwrap import dedent, indent
+from hashlib import md5 as hash
 
 from infra.util import tmpfile, exec, args, cat
 import tempfile
@@ -9,8 +10,9 @@ def prj_file(vhdl_file):
     return tmpfile("vhdl work {vhdl_file}".format(vhdl_file=vhdl_file), suffix=".prj")
 
 
-def xst_file(prj_file, top, output):
+def xst_file(prj_file, top, output, ucf_file):
     return tmpfile("""
+        # {hash}
         set -tmpdir "{tmpdir}"
         set -xsthdpdir "xst"
         run
@@ -40,16 +42,16 @@ def xst_file(prj_file, top, output):
         -pld_ce YES
         -wysiwyg YES
         -equivalent_register_removal YES
-    """.format(tmpdir=tempfile.gettempdir(), prj_file=prj_file, top=top, output=output), suffix=".xst")
+    """.format(tmpdir=tempfile.gettempdir(), prj_file=prj_file, top=top, output=output, hash=hash(ucf_file.encode("utf-8")).hexdigest()), suffix=".xst")
 
 
-def xst(vhdl_file, top):
+def xst(vhdl_file, top, ucf_file):
     # xst -intstyle ise -ifn /root/ise_test/test/fadd.xst -ofn /root/ise_test/test/fadd.syr
     synth_result = vhdl_file.replace(".vhd", ".ngc")
     exec(
         "xst", args(
         intstyle="ise",
-        ifn=xst_file(prj_file(vhdl_file), top, synth_result.replace(".ngc", "")))
+        ifn=xst_file(prj_file(vhdl_file), top, synth_result.replace(".ngc", ""), ucf_file))
     )
     return synth_result
 
@@ -106,7 +108,7 @@ def hprep6(label, vm6_file):
 
 def synth(device, vhdl, ucf, label="AAAA"):
     try:
-        synth_result = xst(tmpfile(vhdl, suffix=".vhd"), "passthrough")
+        synth_result = xst(tmpfile(vhdl, suffix=".vhd"), "passthrough", ucf)
         ndg_file = ngdbuild(ngc_file=synth_result, device=device, ucf_file=tmpfile(ucf, suffix=".ucf"))
         fit_result = cpldfit(ngd_file=ndg_file, device=device)
         jedec = hprep6(vm6_file=fit_result, label=label)
@@ -115,6 +117,6 @@ def synth(device, vhdl, ucf, label="AAAA"):
         raise Exception("SYNTH OF DESIGN FAILED!\nvhdl:{vhdl}\nvhdl:{ucf}\nerror:\n{error}\n".format(
             vhdl=indent(dedent(vhdl), "  "),
             ucf=indent(dedent(ucf), "  "),
-            error=indent(str(err), "  "))
+            error=indent(err.stdout + err.stderr, "  "))
         )
     return jedec_content

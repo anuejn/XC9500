@@ -57,7 +57,7 @@ def exec(executable, args=None, working_dir=None, should_cache=True):
         if pipes.returncode == 0:
             return std_out.decode("utf-8")
         else:
-            raise CalledProcessError(pipes.returncode, command_string, std_err)
+            raise CalledProcessError(pipes.returncode, command_string, std_out.decode("utf-8"), std_err.decode("utf-8"))
 
     if should_cache:
         return cache(command_string, real_exec)
