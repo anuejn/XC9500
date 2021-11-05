@@ -13,7 +13,9 @@ import numpy as np
 
 from infra import ise, jed
 
-DEVICE = "xc9536xl-5-VQ64"
+# DEVICE = "xc9536xl-5-VQ64"
+# DEVICE = "xc9572xl-5-TQ100"
+DEVICE = "xc95288xl-6-FG256"
 MAX_THREADS = cpu_count()
 
 

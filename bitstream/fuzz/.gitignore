@@ -2,3 +2,14 @@ out/
 __pycache__
 test.html
 .cache
+
+./parse*.py
+*.html
+*.jed
+*.xml
+_ngo/*
+_xmsgs/*
+*.lso
+*.chp
+xst/*
+xlnx*

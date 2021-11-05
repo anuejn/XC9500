@@ -1,0 +1,16 @@
+[package]
+name = "xc95dddXL"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jed = { path = "../jed" }
+bitvec = "*"
+owning_ref = "0.4.1"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+serbia = "*"
+anyhow = "*"
+lazy_static = "*"

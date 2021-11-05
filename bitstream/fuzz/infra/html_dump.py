@@ -5,7 +5,7 @@ def gen_fb(fb_data, highlight, known):
     colors = {}
 
     ret = ""
-    for key in known.keys():
+    for key in set([color_key for title, color_key in known.values()]):
         color = ColorHash(key).hex
         colors[key] = color
 
@@ -16,7 +16,13 @@ def gen_fb(fb_data, highlight, known):
 
     ret += '<div class="grid-container" style="cursor: default; user-select: none;">'
 
+    for i in range(109):
+        ret += '<div><span style="font-size: 5px; display: table">{}</span></div>'.format(i - 1 if i > 0 else " ")
+
     for i, bit in enumerate(fb_data):
+        if i % 108 == 0:
+            ret += '<div><span style="font-size: 5px; display: table">{}</span></div>'.format(i // 108)
+
         title = ""
         bit_color = None
 
@@ -30,10 +36,9 @@ def gen_fb(fb_data, highlight, known):
             title = "unset"
             cls = "grid-item-unset"
 
-            for key, bits in known.items():
-                if i in bits:
-                    title = key
-                    bit_color = colors[key]
+            if i in known:
+                title, color_key = known[i]
+                bit_color = colors[color_key]
 
         if bit_color is not None:
             ret += '<div style="background-color: {};" class="{}">'.format(bit_color, cls)
@@ -57,8 +62,8 @@ def gen_html_view(filename, data, highlight, known, *, title=None):
   padding: 0;
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(108, 17px);
-  grid-template-rows: repeat(108, 17px);
+  grid-template-columns: repeat(109, 17px);
+  grid-template-rows: repeat(109, 17px);
 }
 .grid-item-set {
   font-size: 10px;
@@ -97,19 +102,23 @@ def gen_html_view(filename, data, highlight, known, *, title=None):
         f.write("</body>")
 
 
-outdir = "out/"
-base = outdir + "route_single_no_wysiwyg_1_2_to_1_1.jed"
-diff = outdir + "route_single_no_wysiwyg_1_3_to_1_1.jed"
-name = "base: {} [usercode: {}] diff: {} [usercode: {}]".format(base, decode_usercode(flat_bit_data(base, fb=None)), diff, decode_usercode(flat_bit_data(diff, fb=None)))
-data = flat_bit_data(base, fb=None)
+if False:
+    outdir = "out/"
+    base = outdir + "route_single_no_wysiwyg_1_2_to_1_1.jed"
+    diff = outdir + "route_single_no_wysiwyg_1_3_to_1_1.jed"
+    name = "base: {} [usercode: {}] diff: {} [usercode: {}]".format(base, decode_usercode(flat_bit_data(base, fb=None)), diff, decode_usercode(flat_bit_data(diff, fb=None)))
+    data = flat_bit_data(base, fb=None)
 
-print(decode_usercode(data))
+    print(decode_usercode(data))
 
-diffs = []
-for fb in range(4):
-    diff_position, a, b = diff_bitstream(base, diff, fb=fb)
-    print("fb", fb, "diffs", diff_position, a, "->", b)
-    diffs.append(diff_position)
+    diffs = []
+    for fb in range(4):
+        diff_position, a, b = diff_bitstream(base, diff, fb=fb)
+        print("fb", fb, "diffs", diff_position, a, "->", b)
+        diffs.append(diff_position)
+
+
+    gen_html_view("test.html", data, diffs, [known, {}, {}, {}], title=name)
 
 known = {}
 
@@ -133,7 +142,8 @@ for i, offsets in enumerate(offs):
             bits.append(108 * 2 * bit + offset)
             bits.append(108 * (2 * bit + 1) + offset)
 
-        known["MC {} pterm {} and array input xx".format(mc, pterm_names[i])] = bits
+        for bit in bits:
+            known[bit] = ("MC {} pterm {} and array input xx".format(mc, pterm_names[i]), "pterm_and_array")
 
 usercode = []
 for row in range(6, 8):
@@ -141,6 +151,5 @@ for row in range(6, 8):
         usercode.append(108 * row + 8 * col + 7)
         usercode.append(108 * row + 8 * col + 6)
 
-known["usercode"] = usercode
-
-gen_html_view("test.html", data, diffs, [known, {}, {}, {}], title=name)
+for bit in usercode:
+    known[bit] = ("usercode", "usercode")

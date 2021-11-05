@@ -22,7 +22,7 @@ def xst_file(prj_file, top, output, ucf_file):
         -ofmt NGC
         -p xc9500xl
         -top {top}
-        -opt_mode Speed
+        -opt_mode Area
         -opt_level 1
         -iuc NO
         -keep_hierarchy Yes
@@ -32,16 +32,16 @@ def xst_file(prj_file, top, output, ucf_file):
         -bus_delimiter <>
         -case Maintain
         -verilog2001 YES
-        -fsm_extract YES -fsm_encoding Auto
+        -fsm_extract No -fsm_encoding Auto
         -safe_implementation No
-        -mux_extract Yes
-        -resource_sharing YES
+        -mux_extract No
+        -resource_sharing No
         -iobuf YES
         -pld_mp YES
         -pld_xp YES
         -pld_ce YES
         -wysiwyg YES
-        -equivalent_register_removal YES
+        -equivalent_register_removal No
     """.format(tmpdir=tempfile.gettempdir(), prj_file=prj_file, top=top, output=output, hash=hash(ucf_file.encode("utf-8")).hexdigest()), suffix=".xst")
 
 
@@ -77,7 +77,9 @@ def cpldfit(device, ngd_file):
     exec("cpldfit", working_dir=tempfile.gettempdir(), args=args(
          "-wysiwyg",
          "-htmlrpt",
+         "-nomlopt",
          ngd_file,
+         optimize="density",
          intstyle="ise",
          p=device,
          ofmt="vhdl",

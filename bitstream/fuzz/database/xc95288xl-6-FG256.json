@@ -1,0 +1,462 @@
+{
+	"bitstream_len": 186624,
+	"bits": {
+		"10374": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"10758": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"10886": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"11270": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"12102": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"12486": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"12614": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"12998": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"24326": [
+			"obuft_t_not_pterm_io",
+			"obuft_t_0",
+			"obuft_t_pterm_io"
+		],
+		"26054": [
+			"obuft_t_not_pterm_io",
+			"obuft_t_0",
+			"obuft_t_pterm_io"
+		],
+		"45062": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"55430": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"79622": [
+			"obuft_t_not_pterm_io",
+			"obuft_t_0",
+			"obuft_t_pterm_io"
+		],
+		"105927": [
+			"obuft_t_0"
+		],
+		"132096": [
+			"obuft_t_0"
+		],
+		"134790": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135558": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135566": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135574": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135582": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135590": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135598": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135606": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135614": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135622": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135630": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135638": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135646": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135654": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135662": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135670": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"135678": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_not_pterm_io",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_pterm_io",
+			"obuft_t_1",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_0",
+			"obuft_t_not_gts_2"
+		],
+		"47424": [
+			"obuft_t_not_pterm_io"
+		],
+		"108998": [
+			"obuft_t_not_pterm_io",
+			"obuft_t_pterm_io"
+		],
+		"109126": [
+			"obuft_t_not_pterm_io",
+			"obuft_t_pterm_io"
+		],
+		"3974": [
+			"obuft_t_gts_1",
+			"obuft_t_not_gts_1"
+		],
+		"46790": [
+			"obuft_t_not_gts_4",
+			"obuft_t_not_gts_1",
+			"obuft_t_gts_1",
+			"obuft_t_gts_2",
+			"obuft_t_gts_4",
+			"obuft_t_not_gts_3",
+			"obuft_t_gts_3",
+			"obuft_t_not_gts_2"
+		],
+		"4102": [
+			"obuft_t_gts_2",
+			"obuft_t_not_gts_2"
+		],
+		"48518": [
+			"obuft_t_gts_2",
+			"obuft_t_not_gts_4",
+			"obuft_t_gts_4",
+			"obuft_t_not_gts_2"
+		],
+		"4230": [
+			"obuft_t_gts_3",
+			"obuft_t_not_gts_3"
+		],
+		"50246": [
+			"obuft_t_gts_4",
+			"obuft_t_not_gts_4",
+			"obuft_t_gts_3",
+			"obuft_t_not_gts_3"
+		],
+		"4358": [
+			"obuft_t_gts_4",
+			"obuft_t_not_gts_4"
+		],
+		"45696": [
+			"obuft_t_pterm_io"
+		],
+		"51974": [
+			"obuft_t_gts_2",
+			"obuft_t_gts_1",
+			"obuft_t_gts_3",
+			"obuft_t_gts_4"
+		]
+	}
+}
